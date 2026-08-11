@@ -168,7 +168,7 @@ try{
 
 
 let response = await fetch(
-    "http://localhost:5000/api/favorites",
+    "https://recipe-finder-gdak.onrender.com/api/api/favorites",
     {
         headers:{
             "Authorization":
@@ -204,7 +204,7 @@ container.innerHTML = "";
 
 
 let recipeResponse = await fetch(
-"http://localhost:5000/api/recipes"
+"https://recipe-finder-gdak.onrender.com/api/api/recipes"
 );
 
 
@@ -316,7 +316,7 @@ try{
 
 let response = await fetch(
 
-"http://localhost:5000/api/ratings/user/"
+"https://recipe-finder-gdak.onrender.com/api/api/ratings/user/"
 +
 user.id
 
@@ -422,7 +422,7 @@ try{
 
 let response = await fetch(
 
-"http://localhost:5000/api/comments/user/"
+"https://recipe-finder-gdak.onrender.com/api/api/comments/user/"
 +
 user.id
 

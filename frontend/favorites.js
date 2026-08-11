@@ -30,7 +30,7 @@ async function loadFavorites(){
 
         let response = await fetch(
 
-    "http://localhost:5000/api/favorites",
+    "https://recipe-finder-gdak.onrender.com/api/api/favorites",
 
     {
         headers:{
@@ -68,7 +68,7 @@ async function loadFavorites(){
 
         let recipeResponse =
         await fetch(
-            "http://localhost:5000/api/recipes"
+            "https://recipe-finder-gdak.onrender.com/api/api/recipes"
         );
 
 
@@ -174,7 +174,7 @@ async function removeFavorite(recipeId){
 
     let response = await fetch(
 
-        "http://localhost:5000/api/favorites/"
+        "https://recipe-finder-gdak.onrender.com/api/api/favorites/"
         +
         recipeId,
 

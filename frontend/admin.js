@@ -59,7 +59,7 @@ function displayAdminRecipes(recipes){
 async function loadAdminRecipes(){
 
     let response = await fetch(
-        "http://localhost:5000/api/admin/recipes",
+        "https://recipe-finder-gdak.onrender.com/api/api/admin/recipes",
         {
             headers:{
                 "Authorization":
@@ -116,7 +116,7 @@ return;
 let response =
 await fetch(
 
-"http://localhost:5000/api/admin/recipe/"
+"https://recipe-finder-gdak.onrender.com/api/api/admin/recipe/"
 +
 id,
 
@@ -157,7 +157,7 @@ loadAdminRecipes();
 async function editRecipe(id){
 
     let response = await fetch(
-        "http://localhost:5000/api/admin/recipes",
+        "https://recipe-finder-gdak.onrender.com/api/api/admin/recipes",
         {
             headers:{
                 "Authorization":
@@ -484,7 +484,7 @@ console.log(
 
     let response = await fetch(
 
-        "http://localhost:5000/api/admin/recipe/" + id,
+        "https://recipe-finder-gdak.onrender.com/api/api/admin/recipe/" + id,
 
         {
 
@@ -540,7 +540,7 @@ console.log(
 async function loadReportedComments(){
 
     let response = await fetch(
-        "http://localhost:5000/api/admin/reported-comments",
+        "https://recipe-finder-gdak.onrender.com/api/api/admin/reported-comments",
         {
             headers:{
                 "Authorization":
@@ -624,7 +624,7 @@ if(!confirmDelete){
 
 let response = await fetch(
 
-"http://localhost:5000/api/admin/comment/"+id,
+"https://recipe-finder-gdak.onrender.com/api/api/admin/comment/"+id,
 
 {
 
@@ -973,7 +973,7 @@ formData.append(
 );
 
     let response = await fetch(
-"http://localhost:5000/api/admin/recipe",
+"https://recipe-finder-gdak.onrender.com/api/api/admin/recipe",
 {
 
 method:"POST",
@@ -1034,7 +1034,7 @@ async function loadAdminStats(){
 let response =
 await fetch(
 
-"http://localhost:5000/api/admin/stats",
+"https://recipe-finder-gdak.onrender.com/api/api/admin/stats",
 
 {
 
@@ -1108,7 +1108,7 @@ async function loadAdminUsers(){
 
 let response = await fetch(
 
-"http://localhost:5000/api/admin/users",
+"https://recipe-finder-gdak.onrender.com/api/api/admin/users",
 
 {
 
@@ -1208,7 +1208,7 @@ async function changeRole(id,role){
 
 let response = await fetch(
 
-"http://localhost:5000/api/admin/user/"+id+"/role",
+"https://recipe-finder-gdak.onrender.com/api/api/admin/user/"+id+"/role",
 
 {
 
@@ -1263,7 +1263,7 @@ return;
 
 let response = await fetch(
 
-"http://localhost:5000/api/admin/user/"+id,
+"https://recipe-finder-gdak.onrender.com/api/api/admin/user/"+id,
 
 {
 

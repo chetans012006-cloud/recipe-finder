@@ -8,7 +8,7 @@ async function loadRecipes(){
     try{
 
         let response = await fetch(
-            "http://localhost:5000/api/recipes"
+            "https://recipe-finder-gdak.onrender.com/api/api/recipes"
         );
 
 

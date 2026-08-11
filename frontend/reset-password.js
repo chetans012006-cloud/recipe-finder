@@ -56,7 +56,7 @@ try{
 
 let response = await fetch(
 
-"http://localhost:5000/api/users/reset-password",
+"https://recipe-finder-gdak.onrender.com/api/api/users/reset-password",
 
 {
 
