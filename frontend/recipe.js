@@ -175,7 +175,7 @@ async function loadRecipe() {
             );
 
             response = await fetch(
-                "https://recipe-finder-gdak.onrender.com/api/api/recipes/" +
+                "https://recipe-finder-gdak.onrender.com/api/recipes/" +
                 selectedRecipeId
             );
 
@@ -193,7 +193,7 @@ async function loadRecipe() {
             );
 
             response = await fetch(
-                "https://recipe-finder-gdak.onrender.com/api/api/recipes/name/" +
+                "https://recipe-finder-gdak.onrender.com/api/recipes/name/" +
                 encodeURIComponent(selectedRecipe)
             );
 
@@ -302,7 +302,7 @@ async function addReview(){
 
 
         let response = await fetch(
-        "https://recipe-finder-gdak.onrender.com/api/api/comments",
+        "https://recipe-finder-gdak.onrender.com/api/comments",
         {
 
             method:"POST",
@@ -473,7 +473,7 @@ if(commentList){
 else{
 
     let response = await fetch(
-        "https://recipe-finder-gdak.onrender.com/api/api/comments/" + recipe._id
+        "https://recipe-finder-gdak.onrender.com/api/comments/" + recipe._id
     );
 
     comments = await response.json();
@@ -645,7 +645,7 @@ async function sortComments(){
 
 
     let response = await fetch(
-        "https://recipe-finder-gdak.onrender.com/api/api/comments/" + recipe._id
+        "https://recipe-finder-gdak.onrender.com/api/comments/" + recipe._id
     );
 
 
@@ -709,7 +709,7 @@ async function likeComment(id){
     let response =
     await fetch(
 
-        "https://recipe-finder-gdak.onrender.com/api/api/comments/like/" + id,
+        "https://recipe-finder-gdak.onrender.com/api/comments/like/" + id,
 
         {
 
@@ -772,7 +772,7 @@ async function likeReply(commentId, replyId){
     let response =
     await fetch(
 
-        "https://recipe-finder-gdak.onrender.com/api/api/comments/reply/like/" +
+        "https://recipe-finder-gdak.onrender.com/api/comments/reply/like/" +
         commentId +
         "/" +
         replyId,
@@ -859,7 +859,7 @@ async function replyComment(index){
 
 
     let commentsResponse = await fetch(
-        "https://recipe-finder-gdak.onrender.com/api/api/comments/" + recipe._id
+        "https://recipe-finder-gdak.onrender.com/api/comments/" + recipe._id
     );
 
 
@@ -870,7 +870,7 @@ async function replyComment(index){
 
 
     let response = await fetch(
-"https://recipe-finder-gdak.onrender.com/api/api/comments/reply/" + comment._id,
+"https://recipe-finder-gdak.onrender.com/api/comments/reply/" + comment._id,
 {
 
 method:"POST",
@@ -939,7 +939,7 @@ async function deleteComment(id){
 
 
     let response = await fetch(
-        "https://recipe-finder-gdak.onrender.com/api/api/comments/" + id,
+        "https://recipe-finder-gdak.onrender.com/api/comments/" + id,
         {
             method:"DELETE"
         }
@@ -981,7 +981,7 @@ async function editComment(id, oldText){
 
 
     let response = await fetch(
-        "https://recipe-finder-gdak.onrender.com/api/api/comments/" + id,
+        "https://recipe-finder-gdak.onrender.com/api/comments/" + id,
         {
 
             method:"PUT",
@@ -1038,7 +1038,7 @@ async function editReply(commentId, replyId, oldText){
 
 
     let response = await fetch(
-        "https://recipe-finder-gdak.onrender.com/api/api/comments/reply/" 
+        "https://recipe-finder-gdak.onrender.com/api/comments/reply/" 
         + commentId +
         "/" +
         replyId,
@@ -1105,7 +1105,7 @@ async function deleteReply(commentId, replyId){
 
 
     let response = await fetch(
-        "https://recipe-finder-gdak.onrender.com/api/api/comments/reply/"
+        "https://recipe-finder-gdak.onrender.com/api/comments/reply/"
         + commentId +
         "/" +
         replyId,
@@ -1142,7 +1142,7 @@ async function reportComment(id){
 
     let response = await fetch(
 
-        "https://recipe-finder-gdak.onrender.com/api/api/comments/report/" + id,
+        "https://recipe-finder-gdak.onrender.com/api/comments/report/" + id,
 
         {
 
@@ -1199,7 +1199,7 @@ async function reportReply(commentId, replyId){
 
     let response = await fetch(
 
-        "https://recipe-finder-gdak.onrender.com/api/api/comments/reply/report/"
+        "https://recipe-finder-gdak.onrender.com/api/comments/reply/report/"
         + commentId +
         "/" +
         replyId,
@@ -1263,7 +1263,7 @@ async function replyToReply(commentId, replyId, username){
 
 
     let response = await fetch(
-        "https://recipe-finder-gdak.onrender.com/api/api/comments/reply/" 
+        "https://recipe-finder-gdak.onrender.com/api/comments/reply/" 
         + commentId,
         {
 
@@ -1597,7 +1597,7 @@ async function rateRecipe(stars){
 
 
         let response = await fetch(
-            "https://recipe-finder-gdak.onrender.com/api/api/ratings",
+            "https://recipe-finder-gdak.onrender.com/api/ratings",
             {
 
                 method:"POST",
@@ -1632,7 +1632,7 @@ rating: stars
 
     let updateResponse = await fetch(
 
-        "https://recipe-finder-gdak.onrender.com/api/api/ratings/" + recipe._id,
+        "https://recipe-finder-gdak.onrender.com/api/ratings/" + recipe._id,
 
         {
 
@@ -1752,7 +1752,7 @@ async function showAverageRating(){
 
         let response = await fetch(
 
-            "https://recipe-finder-gdak.onrender.com/api/api/ratings/" + recipe._id
+            "https://recipe-finder-gdak.onrender.com/api/ratings/" + recipe._id
 
         );
 
@@ -1790,7 +1790,7 @@ async function restoreUserRating(){
 
 
     let response = await fetch(
-        "https://recipe-finder-gdak.onrender.com/api/api/ratings/" + recipe._id
+        "https://recipe-finder-gdak.onrender.com/api/ratings/" + recipe._id
     );
 
     let data = await response.json();
@@ -1864,7 +1864,7 @@ async function toggleFavorite(){
 
 
         let response = await fetch(
-            "https://recipe-finder-gdak.onrender.com/api/api/favorites",
+            "https://recipe-finder-gdak.onrender.com/api/favorites",
             {
                 method:"POST",
 
@@ -1905,7 +1905,7 @@ recipeId:recipe._id
 
         let response = await fetch(
 
-            "https://recipe-finder-gdak.onrender.com/api/api/favorites/"
+            "https://recipe-finder-gdak.onrender.com/api/favorites/"
             +
             currentUser.id
             +
@@ -1954,7 +1954,7 @@ async function saveRecipe(){
 
             let response = await fetch(
 
-"https://recipe-finder-gdak.onrender.com/api/api/favorites/"
+"https://recipe-finder-gdak.onrender.com/api/favorites/"
 +
 recipe._id,
 
@@ -1997,7 +1997,7 @@ headers:{
 
             let response = await fetch(
 
-                "https://recipe-finder-gdak.onrender.com/api/api/favorites",
+                "https://recipe-finder-gdak.onrender.com/api/favorites",
 
                 {
 
@@ -2062,7 +2062,7 @@ async function checkFavoriteStatus(){
     try{
 
         let response = await fetch(
-            "https://recipe-finder-gdak.onrender.com/api/api/favorites",
+            "https://recipe-finder-gdak.onrender.com/api/favorites",
             {
                 headers:{
                     "Authorization":
@@ -2574,7 +2574,7 @@ function startFreshCooking(){
 async function pinComment(id){
 
     let response = await fetch(
-        "https://recipe-finder-gdak.onrender.com/api/api/comments/pin/" + id,
+        "https://recipe-finder-gdak.onrender.com/api/comments/pin/" + id,
         {
             method:"PUT",
 

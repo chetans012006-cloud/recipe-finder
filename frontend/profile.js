@@ -168,7 +168,7 @@ try{
 
 
 let response = await fetch(
-    "https://recipe-finder-gdak.onrender.com/api/api/favorites",
+    "https://recipe-finder-gdak.onrender.com/api/favorites",
     {
         headers:{
             "Authorization":
@@ -204,7 +204,7 @@ container.innerHTML = "";
 
 
 let recipeResponse = await fetch(
-"https://recipe-finder-gdak.onrender.com/api/api/recipes"
+"https://recipe-finder-gdak.onrender.com/api/recipes"
 );
 
 
@@ -316,7 +316,7 @@ try{
 
 let response = await fetch(
 
-"https://recipe-finder-gdak.onrender.com/api/api/ratings/user/"
+"https://recipe-finder-gdak.onrender.com/api/ratings/user/"
 +
 user.id
 
@@ -422,7 +422,7 @@ try{
 
 let response = await fetch(
 
-"https://recipe-finder-gdak.onrender.com/api/api/comments/user/"
+"https://recipe-finder-gdak.onrender.com/api/comments/user/"
 +
 user.id
 

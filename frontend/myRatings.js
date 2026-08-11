@@ -20,7 +20,7 @@ try{
 
     let ratingResponse = await fetch(
 
-        "https://recipe-finder-gdak.onrender.com/api/api/ratings/user/" 
+        "https://recipe-finder-gdak.onrender.com/api/ratings/user/" 
         + currentUser.id
 
     );
@@ -34,7 +34,7 @@ try{
 
     let recipeResponse = await fetch(
 
-        "https://recipe-finder-gdak.onrender.com/api/api/recipes"
+        "https://recipe-finder-gdak.onrender.com/api/recipes"
 
     );
 

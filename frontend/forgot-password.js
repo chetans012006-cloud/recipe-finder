@@ -26,7 +26,7 @@ try{
 
 let response = await fetch(
 
-"https://recipe-finder-gdak.onrender.com/api/api/users/forgot-password",
+"https://recipe-finder-gdak.onrender.com/api/users/forgot-password",
 
 {
 

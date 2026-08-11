@@ -19,7 +19,7 @@ try{
 
 let commentResponse = await fetch(
 
-"https://recipe-finder-gdak.onrender.com/api/api/comments/user/"
+"https://recipe-finder-gdak.onrender.com/api/comments/user/"
 + currentUser.id
 
 );
@@ -32,7 +32,7 @@ let comments = await commentResponse.json();
 
 let recipeResponse = await fetch(
 
-"https://recipe-finder-gdak.onrender.com/api/api/recipes"
+"https://recipe-finder-gdak.onrender.com/api/recipes"
 
 );
 
