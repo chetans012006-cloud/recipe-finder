@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+```
+<title>Login</title>
+
+<style>
+
+    body {
+        font-family: Georgia, serif;
+        background: #fff4e6;
+        color: #4a2c20;
+        width: 400px;
+        margin: 80px auto;
+    }
+
+    .login-card {
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    h2 {
+        text-align: center;
+        color: #e85d04;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+    }
+
+    input:focus {
+        outline: none;
+        border-color: #e85d04;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        margin-top: 15px;
+        border: none;
+        border-radius: 8px;
+        background: #e85d04;
+        color: white;
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: #d94f00;
+    }
+
+    p {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin-top: 20px;
+    }
+
+    a {
+        color: #e85d04;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<div class="login-card">
+
+    <h2>🍽️ Login</h2>
+
+    <input
+        id="email"
+        placeholder="Email">
+
+    <input
+        id="password"
+        type="password"
+        placeholder="Password">
+
+    <button onclick="login()">
+        Login
+    </button>
+
+    <p>
+        <a href="forgot-password.html">
+            Forgot Password?
+        </a>
+    </p>
+
+</div>
+
+<script src="users.js"></script>
+
+<script>
+
+    async function login(){
+
+        console.log("Login button clicked");
+
+        let email =
+            document.getElementById("email").value;
+
+        let password =
+            document.getElementById("password").value;
+
+        console.log("Sending request...");
+
+        let response = await fetch(
+            "http://localhost:5000/api/users/login",
+            {
+
+                method:"POST",
+
+                headers:{
+                    "Content-Type":"application/json"
+                },
+
+                body:JSON.stringify({
+
+                    email:email,
+                    password:password
+
+                })
+
+            });
+
+        console.log("Response received");
+
+        let data = await response.json();
+
+        console.log("FULL RESPONSE:", data);
+        console.log("JWT TOKEN:", data.token);
+        console.log("USER DATA:", data.user);
+
+        if(response.ok){
+
+            alert("Welcome " + data.user.username);
+
+            localStorage.setItem(
+                "currentUser",
+                JSON.stringify(data.user)
+            );
+
+            localStorage.setItem(
+                "token",
+                data.token
+            );
+
+            window.location.href="index.html";
+
+        }
+
+        else{
+
+            alert(data.message);
+
+        }
+
+    }
+
+</script>
+
+<script>
+
+    if(localStorage.getItem("darkMode") === "enabled"){
+
+        document.body.classList.add("dark");
+
+    }
+
+</script>
+```
+
+</body>
+
+</html>

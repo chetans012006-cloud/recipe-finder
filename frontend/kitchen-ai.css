@@ -1,0 +1,230 @@
+/* =========================
+   KITCHEN AI PAGE
+   ========================= */
+
+.kitchen-ai-page {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 30px 20px;
+}
+
+
+/* Kitchen AI Heading */
+
+.kitchen-ai-page > h1 {
+    text-align: center;
+    color: #ff6b35;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.kitchen-ai-page > p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+/* AI Input Box */
+
+.kitchen-ai-page .ai-box {
+    background: white;
+    padding: 25px;
+    margin: 0 auto 35px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.kitchen-ai-page .ai-box h2 {
+    margin-bottom: 20px;
+}
+
+
+/* Kitchen Input */
+
+.kitchen-ai-page #kitchenInput {
+    width: 70%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+
+/* Ask Button */
+
+.kitchen-ai-page .ai-box button {
+    padding: 14px 22px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 25px;
+    background: #ff6b35;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.kitchen-ai-page .ai-box button:hover {
+    background: #e85a2a;
+}
+
+
+/* =========================
+   KITCHEN RESULTS
+   ========================= */
+
+/*
+   IMPORTANT:
+   kitchenResult itself is NOT a grid.
+   This prevents headings and paragraphs
+   from appearing in different columns.
+*/
+
+.kitchen-ai-page #kitchenResult {
+    display: block;
+    width: 100%;
+}
+
+
+/* Main result heading */
+
+.kitchen-ai-page #kitchenResult > h2 {
+    color: #ff6b35;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+/* Ingredients text */
+
+.kitchen-ai-page #kitchenResult > p {
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   RECIPE CARDS
+   ========================= */
+
+/*
+   Each section's cards will be arranged
+   in a grid.
+*/
+
+.kitchen-ai-page .kitchen-recipe-card {
+    display: inline-block;
+    vertical-align: top;
+
+    width: calc(33.333% - 15px);
+
+    margin: 7px;
+
+    padding: 20px;
+
+    background: white;
+
+    border: 1px solid #ddd;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+
+    box-sizing: border-box;
+}
+
+
+/* Recipe Name */
+
+.kitchen-ai-page .kitchen-recipe-card h3 {
+    color: #ff6b35;
+    margin-bottom: 15px;
+}
+
+
+/* Recipe Information */
+
+.kitchen-ai-page .kitchen-recipe-card p {
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+
+/* Recipe Button */
+
+.kitchen-ai-page .kitchen-recipe-card button {
+    margin-top: 12px;
+
+    padding: 10px 18px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    background: #ff6b35;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+.kitchen-ai-page .kitchen-recipe-card button:hover {
+    background: #e85a2a;
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 800px) {
+
+    .kitchen-ai-page .kitchen-recipe-card {
+        width: calc(50% - 15px);
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .kitchen-ai-page {
+        padding: 20px 15px;
+    }
+
+    .kitchen-ai-page > h1 {
+        font-size: 32px;
+    }
+
+    .kitchen-ai-page #kitchenInput {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .kitchen-ai-page .ai-box button {
+        margin: 10px 0 0 0;
+        width: 100%;
+    }
+
+    .kitchen-ai-page .kitchen-recipe-card {
+        width: 100%;
+        margin: 8px 0;
+    }
+
+}
+
+
+
+
+
+
+.view-recipe-btn {
+    position: relative;
+    z-index: 10;
+    pointer-events: auto;
+}
+.kitchen-recipe-card {
+    position: relative;
+    z-index: 5;
+}

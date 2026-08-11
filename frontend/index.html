@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="intro.css">
+</head>
+
+<body class="intro-active">
+    <div id="introAnimation">
+
+    <div id="logoIcon">
+    🍽
+</div>
+
+<div id="container"></div>
+
+</div>
+<audio id="introSound" src="sounds/intro-pop.mp3"></audio>
+
+<audio id="whooshSound" src="sounds/whoosh.mp3"></audio>
+
+    <div id="mainWebsite">
+
+       
+
+<nav>
+
+
+
+
+
+<div class="logo">
+🍽 Recipe Finder
+</div>
+
+<button
+    id="adminDashboardBtn"
+    style="display:none;"
+    onclick="openAdminDashboard()"
+>
+    👑 Admin Dashboard
+</button>
+
+<button id="darkModeBtn" onclick="toggleDarkMode()">
+🌙
+</button>
+
+<div class="user-section" id="userSection">
+</div>
+
+
+</nav>
+
+
+    <section class="hero">
+
+        <h1>Find Your Favourite Recipe</h1>
+
+        <p>Search thousands of delicious recipes</p>
+
+
+        <div class="search-box">
+
+   <div class="search-wrapper">
+
+   <input 
+    id="searchInput"
+    type="text" 
+    placeholder="Search recipe..."
+    oninput="showSuggestions()"
+    >
+
+
+    <div id="suggestions">
+
+</div>
+
+</div>
+
+    <button onclick="searchRecipe()">
+Search
+</button>
+
+
+<button onclick="clearSearch()">
+Clear
+</button>
+
+</div>
+
+
+<div id="suggestions"></div>
+
+    </section>
+
+
+
+   
+</section>
+
+
+    <!-- JavaScript will add recipes here -->
+   <div class="filter-bar">
+
+<select id="categoryFilter" onchange="applyFilters()">
+<option value="">All Categories</option>
+<option value="Italian">Italian</option>
+<option value="Indian">Indian</option>
+<option value="Fast Food">Fast Food</option>
+</select>
+
+
+<select id="difficultyFilter" onchange="applyFilters()">
+<option value="">All Difficulty</option>
+<option value="Easy">Easy</option>
+<option value="Medium">Medium</option>
+<option value="Hard">Hard</option>
+</select>
+
+
+<select id="ratingFilter" onchange="applyFilters()">
+<option value="">All Ratings</option>
+<option value="5">5 ⭐</option>
+<option value="4">4 ⭐ & Above</option>
+<option value="3">3 ⭐ & Above</option>
+</select>
+
+<select id="timeFilter" onchange="applyFilters()">
+
+<option value="">
+All Cooking Time
+</option>
+
+<option value="20">
+Less than 20 mins
+</option>
+
+<option value="40">
+Less than 40 mins
+</option>
+
+<option value="60">
+Less than 60 mins
+</option>
+
+</select>
+<select id="foodFilter" onchange="applyFilters()">
+
+<option value="">All</option>
+
+<option value="Veg">
+🥗 Veg
+</option>
+
+<option value="Non-Veg">
+🍗 Non-Veg
+</option>
+
+</select>
+<button onclick="resetFilters()">
+    Reset Filters
+</button>
+</div>
+
+
+<div class="recipe-container" id="recipeContainer">
+
+</div>
+
+
+    <footer>
+    © 2026 Recipe Finder
+</footer>
+
+</div>
+<div class="kitchen-ai-float">
+
+    <div id="kitchenAiBubble" class="kitchen-ai-bubble">
+        Hungry? 👀
+    </div>
+
+    <button class="kitchen-ai-button" onclick="openKitchenAI()">
+        👨‍🍳
+    </button>
+
+</div>
+
+    <script src="profile.js"></script>
+    <script src="script.js"></script>
+    <script type="module" src="intro.js"></script>
+
+
+
+
+
+<script>
+function openKitchenAI() {
+    window.location.href = "kitchen-ai.html";
+}
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>My Reviews</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<nav>
+
+<h2>
+🍽 Recipe Finder
+</h2>
+
+
+<div id="userSection"></div>
+
+
+</nav>
+
+
+
+<div class="profile-container">
+
+
+<h1>
+💬 My Reviews
+</h1>
+
+
+<div id="reviewsContainer">
+
+</div>
+
+
+
+</div>
+
+<script>
+
+if(localStorage.getItem("darkMode") === "enabled"){
+
+    document.body.classList.add("dark");
+
+}
+
+</script>
+
+<script src="profile.js"></script>
+<script src="myReviews.js"></script>
+
+
+</body>
+
+</html>

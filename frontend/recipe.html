@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Recipe Details</title>
+    <link rel="stylesheet" href="recipe.css">
+</head>
+
+
+<body>
+
+<nav>
+
+    <h2>🍽 Recipe Finder</h2>
+
+
+    
+
+
+
+</nav>
+
+<div class="recipe-details">
+
+    <img id="recipeImage">
+
+
+    <h1 id="recipeName"></h1>
+    <button 
+class="recipe-action-btn"
+id="saveRecipeBtn" 
+onclick="saveRecipe()">
+
+❤️ Save Recipe
+
+</button>
+
+<button 
+class="recipe-action-btn"
+onclick="shareRecipe()">
+
+🔗 Share Recipe
+
+</button>
+
+<button 
+class="recipe-action-btn"
+onclick="printRecipe()">
+
+🖨️ Print Recipe
+
+</button>
+<button onclick="startCooking()">
+
+👨‍🍳 Start Cooking
+
+</button>
+
+    <div class="recipe-info">
+
+    <p>⭐ Rating: <span id="rating"></span></p>
+
+    <p>⏱ Time: <span id="time"></span></p>
+
+    <p>🔥 Difficulty: <span id="difficulty"></span></p>
+
+    <p>🍽 Servings: <span id="servings"></span></p>
+
+</div>
+
+
+
+    <h2>Ingredients</h2>
+
+    <ul id="ingredients">
+    </ul>
+
+
+    <h2>Cooking Procedure</h2>
+
+<div id="steps">
+
+</div>
+
+<h2>⭐ Recipe Rating</h2>
+
+<div id="ratingSection">
+
+   <h3>
+
+    <div class="average-rating">
+
+    <h3>
+        Average Rating:
+        <span id="averageStars">
+            ☆☆☆☆☆
+        </span>
+
+        <span id="averageRating">
+            0.0
+        </span>
+
+    </h3>
+
+
+    <p>
+        Based on 
+        <span id="ratingCount">
+            0
+        </span>
+        ratings
+    </p>
+
+</div>
+
+</h3>
+
+
+<script>
+let userRating = 0;
+</script>
+
+   <div id="starContainer">
+
+    <span 
+    onmouseover="previewStars(1)"
+    onmouseout="highlightStars(userRating)"
+    onclick="rateRecipe(1)">
+    ☆
+    </span>
+
+
+    <span 
+    onmouseover="previewStars(2)"
+    onmouseout="highlightStars(userRating)"
+    onclick="rateRecipe(2)">
+    ☆
+    </span>
+
+
+    <span 
+    onmouseover="previewStars(3)"
+    onmouseout="highlightStars(userRating)"
+    onclick="rateRecipe(3)">
+    ☆
+    </span>
+
+
+    <span 
+    onmouseover="previewStars(4)"
+    onmouseout="highlightStars(userRating)"
+    onclick="rateRecipe(4)">
+    ☆
+    </span>
+
+
+    <span 
+    onmouseover="previewStars(5)"
+    onmouseout="highlightStars(userRating)"
+    onclick="rateRecipe(5)">
+    ☆
+    </span>
+
+</div>
+
+
+<p id="ratingPreview"></p>
+
+    <p id="ratingMessage"></p>
+
+</div>
+<h2>🥗 Nutrition Facts</h2>
+
+<div id="nutrition">
+
+</div>
+<div id="cookingMode">
+
+
+    <div class="cooking-box">
+
+
+        <h2>👨‍🍳 Cooking Mode</h2>
+
+
+        <h3 id="stepCounter"></h3>
+
+
+        <div id="progressContainer">
+
+            <div id="progressBar">
+
+                <span id="progressText">
+                    0%
+                </span>
+
+            </div>
+
+        </div>
+
+
+       
+
+
+<div id="currentStep">
+
+</div>
+
+
+<div id="timerSection">
+    <p id="stepTime"></p>
+
+    ⏱ Time:
+    
+    <span id="timer">
+        00:00
+    </span>
+
+    <br>
+
+    <div class="timer-buttons">
+
+<button id="timerButton" onclick="toggleTimer()">
+    ▶ Start Timer
+</button>
+
+
+
+<button onclick="resetTimer()">
+    🔄 Reset
+</button>
+
+</div>
+
+</div>
+
+
+        <div class="cooking-buttons">
+
+<button id="previousBtn" onclick="previousStep()">
+
+    ⬅ Previous
+
+</button>
+
+
+<button id="nextBtn" onclick="nextStep()">
+
+    Next ➡
+
+</button>
+
+<button onclick="exitCookingMode()">
+
+    ❌ Exit
+
+</button>
+
+</div>
+
+
+    </div>
+
+
+</div>
+
+<h2>💡 Chef Tips</h2>
+
+<ul id="tips">
+
+</ul>
+<h2 class="comments-heading">
+💬 Comments
+</h2>
+<select id="sortComments" onchange="sortComments()">
+
+    <option value="newest">
+        Newest
+    </option>
+
+    <option value="oldest">
+        Oldest
+    </option>
+
+    <option value="liked">
+        Most Liked
+    </option>
+
+</select>
+
+<div class="review-box">
+
+    
+    
+
+
+    <textarea 
+    id="userReview" 
+    placeholder="Write your comment..."
+    ></textarea>
+
+
+    <button onclick="addReview()">
+        Comment
+    </button>
+
+</div>
+
+
+<div id="reviews">
+
+</div>
+
+
+
+</div>
+<!-- Cooking Timer Popup -->
+
+<div id="timerPopup">
+
+    <div class="popup-box">
+
+        <h2>
+            🔔 Step Complete
+        </h2>
+
+        <p>
+            Your cooking time is finished!
+        </p>
+
+        <div class="popup-buttons">
+
+            <button onclick="closeTimerPopup()">
+                Stay Here
+            </button>
+
+
+            <button onclick="nextStepFromPopup()">
+                Next Step ➡
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="resumePopup">
+
+    <div class="popup-box">
+
+        <h2>
+            👨‍🍳 Resume Cooking?
+        </h2>
+
+        <p id="resumeText"></p>
+
+
+        <div class="popup-buttons">
+
+            <button onclick="startFreshCooking()">
+                Start Fresh
+            </button>
+
+
+            <button onclick="resumeCooking()">
+                Resume
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+<audio id="timerSound" src="sounds/timer.mp3"></audio>
+<script>
+
+if(localStorage.getItem("darkMode") === "enabled"){
+
+    document.body.classList.add("dark");
+
+}
+
+</script>
+
+<script defer src="./recipe.js"></script>
+
+
+</body>
+
+</html>

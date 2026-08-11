@@ -1,0 +1,5341 @@
+[
+{
+"name":"Margherita Pizza",
+
+"image":"https://images.unsplash.com/photo-1513104890138-7c749659a591",
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare the Dough",
+
+"image":"https://images.unsplash.com/photo-1555507036-ab1f4038808a",
+
+"description":"Mix flour, yeast, sugar and salt. Knead the dough until smooth.",
+
+"time":300
+},
+
+
+{
+"title":"Step 2 - Prepare the Toppings",
+
+"image":"https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+
+"description":"Cut vegetables and prepare cheese and sauce.",
+
+"time":180
+},
+
+
+{
+"title":"Step 3 - Shape the Pizza",
+
+"image":"https://images.unsplash.com/photo-1574071318508-1cdbab80d002",
+
+"description":"Roll the dough into a circular pizza base.",
+
+"time":120
+},
+
+
+{
+"title":"Step 4 - Add Sauce and Toppings",
+
+"image":"https://images.unsplash.com/photo-1594007654729-407eedc4be65",
+
+"description":"Spread sauce and add cheese and toppings.",
+
+"time":180
+},
+
+
+{
+"title":"Step 5 - Bake",
+
+"image":"https://images.unsplash.com/photo-1513104890138-7c749659a591",
+
+"description":"Bake until cheese melts and crust becomes golden.",
+
+"time":900
+}
+],
+
+"nutrition":{
+"calories":"500 kcal",
+"protein":"20g",
+"carbs":"50g",
+"fat":"15g"
+},
+
+"chefTips":[
+"Use fresh mozzarella for better taste"
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+    "pizza",
+    "cheese",
+    "italian",
+    "fast food",
+    "vegetarian"
+]
+},
+
+
+{
+"name":"Chicken Biryani",
+"image":"https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+"category":"Indian",
+"difficulty":"Medium",
+"rating":4.8,
+"reviews":25,
+"time":"60 mins",
+"servings":4,
+
+"ingredients":[
+"Basmati rice",
+"Chicken",
+"Spices",
+"Onion",
+"Yogurt"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Chicken Marinade",
+
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+
+"description":"Mix chicken with curd, spices, ginger garlic paste and salt. Keep it aside for marination.",
+
+"time":900
+},
+
+
+{
+"title":"Step 2 - Cook Rice",
+
+"image":"https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6",
+
+"description":"Wash basmati rice and cook it until it is partially done.",
+
+"time":600
+},
+
+
+{
+"title":"Step 3 - Layer the Biryani",
+
+"image":"https://images.unsplash.com/photo-1563379926898-05f4575a45d8",
+
+"description":"Create layers of rice and chicken. Add mint and coriander leaves between layers.",
+
+"time":300
+},
+
+
+{
+"title":"Step 4 - Final Cooking",
+
+"image":"https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+
+"description":"Cover the pot and cook on low flame until flavours combine properly.",
+
+"time":1200
+}
+
+],
+
+"nutrition":{
+"calories":"700 kcal",
+"protein":"35g",
+"carbs":"80g",
+"fat":"25g"
+},
+
+"chefTips":[
+"Use aged basmati rice"
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+    "rice",
+    "indian",
+    "spicy",
+    "chicken",
+    "non veg"
+]
+},
+
+
+
+
+{
+"name":"Creamy Garlic Pasta",
+
+"image":"https://images.unsplash.com/photo-1473093295043-cdd812d0e601",
+
+"category":"Italian",
+
+"difficulty":"Easy",
+
+"rating":4.7,
+
+"reviews":15,
+
+"time":"25 mins",
+
+"servings":3,
+
+"ingredients":[
+"200g pasta",
+"2 tbsp butter",
+"4 garlic cloves",
+"1 cup cream",
+"1 cup cheese",
+"Mixed herbs",
+"Salt"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Boil Pasta",
+
+"image":"https://images.unsplash.com/photo-1551183053-bf91a1d81141",
+
+"description":"Boil pasta in salted water until soft.",
+
+"time":600
+},
+
+{
+"title":"Step 2 - Prepare Garlic Sauce",
+
+"image":"https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9",
+
+"description":"Cook garlic in butter and add cream and cheese.",
+
+"time":300
+},
+
+{
+"title":"Step 3 - Mix and Serve",
+
+"image":"https://images.unsplash.com/photo-1473093295043-cdd812d0e601",
+
+"description":"Mix pasta with sauce and serve hot.",
+
+"time":180
+}
+
+],
+
+"nutrition":{
+
+"calories":"320 kcal",
+"protein":"14 g",
+"carbs":"45 g",
+"fat":"12 g"
+
+},
+
+"chefTips":[
+
+"Do not overcook pasta.",
+"Add cheese while sauce is warm."
+
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+    "pasta",
+    "italian",
+    "creamy",
+    "cheese"
+]
+
+},
+
+{
+"name":"Classic Cheese Burger",
+
+"image":"https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+
+"category":"Fast Food",
+
+"difficulty":"Easy",
+
+"rating":4.6,
+
+"reviews":20,
+
+"time":"20 mins",
+
+"servings":2,
+
+"ingredients":[
+
+"Burger buns",
+"Vegetable patty",
+"Cheese slices",
+"Tomato",
+"Onion",
+"Lettuce",
+"Mayonnaise"
+
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Patty",
+
+"image":"https://images.unsplash.com/photo-1550547660-d9450f859349",
+
+"description":"Cook the patty until crispy and golden.",
+
+"time":300
+},
+
+{
+"title":"Step 2 - Toast Buns",
+
+"image":"https://images.unsplash.com/photo-1565299507177-b0ac66763828",
+
+"description":"Toast burger buns lightly.",
+
+"time":120
+},
+
+{
+"title":"Step 3 - Assemble Burger",
+
+"image":"https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+
+"description":"Add vegetables, cheese, patty and sauces.",
+
+"time":180
+}
+
+],
+
+"nutrition":{
+
+"calories":"350 kcal",
+"protein":"15 g",
+"carbs":"40 g",
+"fat":"14 g"
+
+},
+
+"chefTips":[
+
+"Toast buns for better taste."
+
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+    "burger",
+    "fast food",
+    "snacks",
+    "cheese"
+]
+
+},
+
+
+{
+"name":"Paneer Butter Masala",
+
+"image":"https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+
+"category":"Indian",
+
+"difficulty":"Medium",
+
+"rating":4.8,
+
+"reviews":30,
+
+"time":"40 mins",
+
+"servings":4,
+
+"ingredients":[
+
+"250g paneer",
+"Tomatoes",
+"Butter",
+"Cream",
+"Indian spices",
+"Onion",
+"Cashews"
+
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Gravy",
+
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+
+"description":"Cook tomatoes, onion and spices to prepare gravy.",
+
+"time":900
+},
+
+{
+"title":"Step 2 - Add Paneer",
+
+"image":"https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+
+"description":"Add paneer cubes into the gravy.",
+
+"time":300
+},
+
+{
+"title":"Step 3 - Finish Cooking",
+
+"image":"https://images.unsplash.com/photo-1585937421612-70a008356fbe",
+
+"description":"Add cream and butter. Cook until rich and creamy.",
+
+"time":600
+}
+
+],
+
+"nutrition":{
+
+"calories":"380 kcal",
+"protein":"18 g",
+"carbs":"20 g",
+"fat":"25 g"
+
+},
+
+"chefTips":[
+
+"Use fresh paneer.",
+"Add cream at the end."
+
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+"tags": [
+    "Indian",
+    "North Indian",
+    "Paneer",
+    "Vegetarian",
+    "Veg",
+    "Curry",
+    "Gravy",
+    "Dinner",
+    "Lunch",
+    "Restaurant Style",
+    "Creamy",
+    "Spicy",
+    "Main Course"
+]
+
+},
+
+{
+"name":"Butter Chicken",
+
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+
+"category":"Indian",
+
+"difficulty":"Medium",
+
+"rating":4.8,
+
+"reviews":40,
+
+"time":"50 mins",
+
+"servings":4,
+
+"ingredients":[
+"500g chicken",
+"Butter",
+"Tomatoes",
+"Cream",
+"Curd",
+"Ginger garlic paste",
+"Indian spices",
+"Salt"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Marinate Chicken",
+
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+
+"description":"Mix chicken with curd, spices and ginger garlic paste. Keep it aside for marination.",
+
+"time":900
+},
+
+{
+"title":"Step 2 - Cook Chicken",
+
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+
+"description":"Cook marinated chicken until it becomes tender.",
+
+"time":1200
+},
+
+{
+"title":"Step 3 - Prepare Butter Gravy",
+
+"image":"https://images.unsplash.com/photo-1585937421612-70a008356fbe",
+
+"description":"Prepare creamy tomato gravy with butter and spices. Add cooked chicken.",
+
+"time":900
+}
+
+],
+
+"nutrition":{
+"calories":"490 kcal",
+"protein":"30 g",
+"carbs":"18 g",
+"fat":"32 g"
+},
+
+"chefTips":[
+"Use fresh cream for a richer taste.",
+"Allow chicken to absorb spices properly."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"indian",
+"chicken",
+"curry",
+"spicy",
+"north indian",
+"dinner"
+]
+
+},
+
+
+{
+"name":"Palak Paneer",
+
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+
+"category":"Indian",
+
+"difficulty":"Medium",
+
+"rating":4.7,
+
+"reviews":35,
+
+"time":"35 mins",
+
+"servings":4,
+
+"ingredients":[
+"250g paneer",
+"Spinach",
+"Onion",
+"Tomatoes",
+"Garlic",
+"Indian spices",
+"Cream"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Spinach Puree",
+
+"image":"https://images.unsplash.com/photo-1576045057995-568f588f82fb",
+
+"description":"Boil spinach and blend it into a smooth puree.",
+
+"time":600
+},
+
+{
+"title":"Step 2 - Cook Gravy",
+
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+
+"description":"Cook onion, tomato, garlic and spices to prepare gravy.",
+
+"time":900
+},
+
+{
+"title":"Step 3 - Add Paneer",
+
+"image":"https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+
+"description":"Add paneer cubes and cook with spinach gravy.",
+
+"time":600
+}
+
+],
+
+"nutrition":{
+"calories":"350 kcal",
+"protein":"18 g",
+"carbs":"15 g",
+"fat":"25 g"
+},
+
+"chefTips":[
+"Use fresh spinach for better colour.",
+"Do not overcook paneer."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"indian",
+"paneer",
+"vegetarian",
+"spinach",
+"healthy",
+"north indian"
+]
+
+},
+
+{
+"name":"Masala Dosa",
+
+"image":"https://images.unsplash.com/photo-1668236543090-82eba5ee5976",
+
+"category":"Indian",
+
+"difficulty":"Medium",
+
+"rating":4.8,
+
+"reviews":50,
+
+"time":"45 mins",
+
+"servings":3,
+
+"ingredients":[
+"Rice",
+"Urad dal",
+"Potatoes",
+"Onion",
+"Mustard seeds",
+"Curry leaves",
+"Spices"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Batter",
+
+"image":"https://images.unsplash.com/photo-1668236543090-82eba5ee5976",
+
+"description":"Prepare fermented dosa batter using rice and urad dal.",
+
+"time":1800
+},
+
+{
+"title":"Step 2 - Prepare Potato Filling",
+
+"image":"https://images.unsplash.com/photo-1518013431117-eb1465aedc33",
+
+"description":"Cook potatoes with onion and spices to prepare masala filling.",
+
+"time":600
+},
+
+{
+"title":"Step 3 - Make Dosa",
+
+"image":"https://images.unsplash.com/photo-1668236543090-82eba5ee5976",
+
+"description":"Spread batter on hot pan, add potato filling and serve.",
+
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"300 kcal",
+"protein":"8 g",
+"carbs":"50 g",
+"fat":"10 g"
+},
+
+"chefTips":[
+"Fermentation improves dosa taste.",
+"Serve hot with chutney and sambhar."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"south indian",
+"dosa",
+"breakfast",
+"vegetarian",
+"rice"
+]
+
+},
+
+{
+"name":"Chole Bhature",
+
+"image":"https://images.unsplash.com/photo-1626132647523-66f5bf380027",
+
+"category":"Indian",
+
+"difficulty":"Medium",
+
+"rating":4.7,
+
+"reviews":45,
+
+"time":"50 mins",
+
+"servings":4,
+
+"ingredients":[
+"Chickpeas",
+"All purpose flour",
+"Onion",
+"Tomatoes",
+"Ginger garlic paste",
+"Chole masala",
+"Spices",
+"Oil"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Chole",
+
+"image":"https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7",
+
+"description":"Cook soaked chickpeas with onion, tomato, ginger garlic paste and spices until soft.",
+
+"time":1800
+},
+
+{
+"title":"Step 2 - Prepare Bhature Dough",
+
+"image":"https://images.unsplash.com/photo-1626132647523-66f5bf380027",
+
+"description":"Mix flour with curd and water to prepare soft dough. Rest the dough before frying.",
+
+"time":900
+},
+
+{
+"title":"Step 3 - Fry Bhature",
+
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+
+"description":"Roll the dough and deep fry until bhature becomes fluffy and golden.",
+
+"time":600
+}
+
+],
+
+"nutrition":{
+"calories":"550 kcal",
+"protein":"15 g",
+"carbs":"75 g",
+"fat":"22 g"
+},
+
+"chefTips":[
+"Let the dough rest for better texture.",
+"Use fresh chole masala for better flavour."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"indian",
+"punjabi",
+"breakfast",
+"vegetarian",
+"spicy",
+"street food"
+]
+
+},
+
+
+{
+"name":"Veg Biryani",
+
+"image":"https://images.unsplash.com/photo-1596560548464-f010549b84d7",
+
+"category":"Indian",
+
+"difficulty":"Medium",
+
+"rating":4.6,
+
+"reviews":30,
+
+"time":"45 mins",
+
+"servings":4,
+
+"ingredients":[
+"Basmati rice",
+"Carrot",
+"Beans",
+"Peas",
+"Potatoes",
+"Onion",
+"Biryani spices",
+"Mint leaves"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Vegetables",
+
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+
+"description":"Wash and chop all vegetables into small pieces.",
+
+"time":300
+},
+
+{
+"title":"Step 2 - Cook Rice",
+
+"image":"https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6",
+
+"description":"Cook basmati rice until it is partially done.",
+
+"time":600
+},
+
+{
+"title":"Step 3 - Layer and Cook",
+
+"image":"https://images.unsplash.com/photo-1596560548464-f010549b84d7",
+
+"description":"Layer rice and vegetables with spices and cook on low flame.",
+
+"time":1200
+}
+
+],
+
+"nutrition":{
+"calories":"420 kcal",
+"protein":"10 g",
+"carbs":"65 g",
+"fat":"12 g"
+},
+
+"chefTips":[
+"Use aged basmati rice for better aroma.",
+"Do not overcook rice."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"indian",
+"biryani",
+"rice",
+"vegetarian",
+"dinner",
+"spicy"
+]
+
+},
+
+
+{
+"name":"Dal Tadka",
+
+"image":"https://images.unsplash.com/photo-1547592180-85f173990554",
+
+"category":"Indian",
+
+"difficulty":"Easy",
+
+"rating":4.5,
+
+"reviews":25,
+
+"time":"30 mins",
+
+"servings":3,
+
+"ingredients":[
+"Toor dal",
+"Onion",
+"Tomatoes",
+"Garlic",
+"Cumin seeds",
+"Turmeric",
+"Red chilli",
+"Coriander"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Cook Dal",
+
+"image":"https://images.unsplash.com/photo-1547592180-85f173990554",
+
+"description":"Wash dal and cook it with turmeric until soft.",
+
+"time":1200
+},
+
+{
+"title":"Step 2 - Prepare Tadka",
+
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+
+"description":"Heat oil and add cumin, garlic, onion and spices.",
+
+"time":300
+},
+
+{
+"title":"Step 3 - Mix and Serve",
+
+"image":"https://images.unsplash.com/photo-1547592180-85f173990554",
+
+"description":"Mix tadka with cooked dal and garnish with coriander.",
+
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"220 kcal",
+"protein":"12 g",
+"carbs":"30 g",
+"fat":"8 g"
+},
+
+"chefTips":[
+"Add ghee tadka for richer taste.",
+"Serve hot with rice or roti."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"indian",
+"dal",
+"vegetarian",
+"healthy",
+"protein",
+"daily meal"
+]
+
+},
+
+
+{
+"name":"Aloo Gobi",
+"slug":"aloo-gobi",
+
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+
+"category":"Indian",
+
+"difficulty":"Easy",
+
+"rating":4.5,
+
+"reviews":20,
+
+"time":"35 mins",
+
+"servings":4,
+
+"ingredients":[
+"Potatoes",
+"Cauliflower",
+"Onion",
+"Tomatoes",
+"Turmeric",
+"Garam masala",
+"Spices"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Vegetables",
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+"description":"Wash and cut potatoes and cauliflower into small pieces.",
+"time":300
+},
+
+{
+"title":"Step 2 - Cook Vegetables",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Cook vegetables with onion, tomatoes and spices until soft.",
+"time":1200
+},
+
+{
+"title":"Step 3 - Finish Dish",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Add garam masala and garnish with coriander before serving.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"250 kcal",
+"protein":"6 g",
+"carbs":"35 g",
+"fat":"10 g"
+},
+
+"chefTips":[
+"Do not overcook cauliflower.",
+"Use fresh spices for better flavour."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"indian",
+"vegetarian",
+"potato",
+"cauliflower",
+"north indian",
+"lunch",
+"dinner"
+]
+
+},
+
+{
+"name":"Rajma Masala",
+"slug":"rajma-masala",
+
+"image":"https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7",
+
+"category":"Indian",
+
+"difficulty":"Medium",
+
+"rating":4.6,
+
+"reviews":22,
+
+"time":"50 mins",
+
+"servings":4,
+
+"ingredients":[
+"Rajma beans",
+"Onion",
+"Tomatoes",
+"Ginger garlic paste",
+"Indian spices",
+"Coriander"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Soak Rajma",
+"image":"https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7",
+"description":"Soak rajma overnight and boil until soft.",
+"time":1800
+},
+
+{
+"title":"Step 2 - Prepare Gravy",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Cook onion, tomato and spices to prepare gravy.",
+"time":900
+},
+
+{
+"title":"Step 3 - Mix Rajma",
+"image":"https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7",
+"description":"Add boiled rajma and cook until flavours combine.",
+"time":600
+}
+
+],
+
+"nutrition":{
+"calories":"320 kcal",
+"protein":"15 g",
+"carbs":"45 g",
+"fat":"8 g"
+},
+
+"chefTips":[
+"Always soak rajma properly.",
+"Serve with steamed rice."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"indian",
+"rajma",
+"protein",
+"vegetarian",
+"north indian",
+"rice"
+]
+
+},
+
+{
+"name":"Vegetable Fried Rice",
+"slug":"vegetable-fried-rice",
+
+"image":"https://images.unsplash.com/photo-1603133872878-684f208fb84b",
+
+"category":"Chinese",
+
+"difficulty":"Easy",
+
+"rating":4.5,
+
+"reviews":18,
+
+"time":"25 mins",
+
+"servings":3,
+
+"ingredients":[
+"Cooked rice",
+"Carrot",
+"Beans",
+"Capsicum",
+"Soy sauce",
+"Spring onion"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Vegetables",
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+"description":"Chop vegetables into small pieces.",
+"time":300
+},
+
+{
+"title":"Step 2 - Stir Fry",
+"image":"https://images.unsplash.com/photo-1603133872878-684f208fb84b",
+"description":"Stir fry vegetables with sauces.",
+"time":600
+},
+
+{
+"title":"Step 3 - Add Rice",
+"image":"https://images.unsplash.com/photo-1603133872878-684f208fb84b",
+"description":"Mix rice with vegetables and cook for few minutes.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"350 kcal",
+"protein":"8 g",
+"carbs":"55 g",
+"fat":"12 g"
+},
+
+"chefTips":[
+"Use leftover rice for best texture."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"chinese",
+"rice",
+"vegetarian",
+"quick meal",
+"lunch"
+]
+
+},
+
+{
+"name":"Chicken Tikka",
+"slug":"chicken-tikka",
+
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+
+"category":"Indian",
+
+"difficulty":"Medium",
+
+"rating":4.7,
+
+"reviews":35,
+
+"time":"45 mins",
+
+"servings":3,
+
+"ingredients":[
+"Chicken",
+"Yogurt",
+"Spices",
+"Ginger garlic paste",
+"Oil"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Marinate Chicken",
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+"description":"Mix chicken with yogurt and spices.",
+"time":1200
+},
+
+{
+"title":"Step 2 - Grill Chicken",
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+"description":"Cook chicken until smoky and tender.",
+"time":900
+}
+
+],
+
+"nutrition":{
+"calories":"400 kcal",
+"protein":"35 g",
+"carbs":"10 g",
+"fat":"22 g"
+},
+
+"chefTips":[
+"Marinate longer for better taste."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"indian",
+"chicken",
+"starter",
+"spicy",
+"grilled"
+]
+
+},
+
+{
+"name":"Tomato Soup",
+"slug":"tomato-soup",
+
+"image":"https://images.unsplash.com/photo-1547592180-85f173990554",
+
+"category":"Soup",
+
+"difficulty":"Easy",
+
+"rating":4.4,
+
+"reviews":15,
+
+"time":"20 mins",
+
+"servings":2,
+
+"ingredients":[
+"Tomatoes",
+"Butter",
+"Garlic",
+"Pepper",
+"Salt"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Cook Tomatoes",
+"image":"https://images.unsplash.com/photo-1547592180-85f173990554",
+"description":"Cook tomatoes with garlic and butter.",
+"time":600
+},
+
+{
+"title":"Step 2 - Blend Soup",
+"image":"https://images.unsplash.com/photo-1547592180-85f173990554",
+"description":"Blend mixture and adjust seasoning.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"150 kcal",
+"protein":"4 g",
+"carbs":"20 g",
+"fat":"6 g"
+},
+
+"chefTips":[
+"Serve hot with bread."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"soup",
+"healthy",
+"vegetarian",
+"quick meal"
+]
+
+},
+
+
+{
+"name":"Pav Bhaji",
+
+"image":"https://images.unsplash.com/photo-1606491956689-2ea866880c84",
+
+"category":"Indian",
+
+"difficulty":"Medium",
+
+"rating":4.7,
+
+"reviews":40,
+
+"time":"45 mins",
+
+"servings":4,
+
+"ingredients":[
+"Pav buns",
+"Potatoes",
+"Tomatoes",
+"Capsicum",
+"Peas",
+"Butter",
+"Pav bhaji masala",
+"Onion",
+"Coriander"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Vegetables",
+
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+
+"description":"Boil potatoes, peas and vegetables until soft. Mash them properly.",
+
+"time":900
+},
+
+{
+"title":"Step 2 - Cook Bhaji",
+
+"image":"https://images.unsplash.com/photo-1606491956689-2ea866880c84",
+
+"description":"Cook onions, tomatoes and spices with butter. Add mashed vegetables and pav bhaji masala.",
+
+"time":1200
+},
+
+{
+"title":"Step 3 - Toast Pav",
+
+"image":"https://images.unsplash.com/photo-1509440159596-0249088772ff",
+
+"description":"Apply butter on pav buns and toast them on a hot pan.",
+
+"time":300
+},
+
+{
+"title":"Step 4 - Serve",
+
+"image":"https://images.unsplash.com/photo-1606491956689-2ea866880c84",
+
+"description":"Serve hot bhaji with toasted pav, onion and coriander.",
+
+"time":180
+}
+
+],
+
+"nutrition":{
+
+"calories":"420 kcal",
+
+"protein":"12 g",
+
+"carbs":"65 g",
+
+"fat":"15 g"
+
+},
+
+"chefTips":[
+
+"Use extra butter for authentic street style taste.",
+
+"Mash vegetables properly for smooth texture."
+
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+
+"indian",
+
+"mumbai",
+
+"street food",
+
+"breakfast",
+
+"vegetarian",
+
+"spicy",
+
+"fast food"
+
+]
+
+},
+
+{
+"name":"Idli Sambar",
+"slug":"idli-sambar",
+
+"image":"https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+
+"category":"South Indian",
+
+"difficulty":"Medium",
+
+"rating":4.7,
+
+"reviews":35,
+
+"time":"40 mins",
+
+"servings":4,
+
+"ingredients":[
+"Idli batter",
+"Toor dal",
+"Tomatoes",
+"Onion",
+"Carrot",
+"Drumstick",
+"Sambar masala",
+"Curry leaves"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Idli Batter",
+"image":"https://images.unsplash.com/photo-1668236543090-82eba5ee5976",
+"description":"Prepare fermented idli batter using rice and urad dal.",
+"time":1800
+},
+
+{
+"title":"Step 2 - Steam Idlis",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Pour batter into idli moulds and steam until soft.",
+"time":600
+},
+
+{
+"title":"Step 3 - Prepare Sambar",
+"image":"https://images.unsplash.com/photo-1547592180-85f173990554",
+"description":"Cook dal with vegetables, spices and sambar masala.",
+"time":1200
+},
+
+{
+"title":"Step 4 - Serve",
+"image":"https://images.unsplash.com/photo-1668236543090-82eba5ee5976",
+"description":"Serve hot idlis with sambar and chutney.",
+"time":180
+}
+
+],
+
+"nutrition":{
+"calories":"280 kcal",
+"protein":"10 g",
+"carbs":"45 g",
+"fat":"6 g"
+},
+
+"chefTips":[
+"Fermented batter gives softer idlis.",
+"Serve immediately for best taste."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"south indian",
+"idli",
+"sambar",
+"breakfast",
+"vegetarian"
+]
+
+},
+
+
+{
+"name":"Hakka Noodles",
+"slug":"hakka-noodles",
+
+"image":"https://images.unsplash.com/photo-1569718212165-3a8278d5f624",
+
+"category":"Chinese",
+
+"difficulty":"Easy",
+
+"rating":4.6,
+
+"reviews":28,
+
+"time":"25 mins",
+
+"servings":3,
+
+"ingredients":[
+"Noodles",
+"Capsicum",
+"Carrot",
+"Cabbage",
+"Spring onion",
+"Soy sauce",
+"Pepper"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Boil Noodles",
+"image":"https://images.unsplash.com/photo-1551183053-bf91a1d81141",
+"description":"Boil noodles until cooked and keep them aside.",
+"time":600
+},
+
+{
+"title":"Step 2 - Stir Fry Vegetables",
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+"description":"Cook vegetables on high flame with sauces.",
+"time":300
+},
+
+{
+"title":"Step 3 - Mix Noodles",
+"image":"https://images.unsplash.com/photo-1569718212165-3a8278d5f624",
+"description":"Add noodles and mix everything properly.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"380 kcal",
+"protein":"12 g",
+"carbs":"60 g",
+"fat":"10 g"
+},
+
+"chefTips":[
+"Cook noodles on high flame for restaurant style taste."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"chinese",
+"noodles",
+"street food",
+"fast food",
+"vegetarian"
+]
+
+},
+
+{
+"name":"Chicken 65",
+"slug":"chicken-65",
+
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+
+"category":"South Indian",
+
+"difficulty":"Medium",
+
+"rating":4.8,
+
+"reviews":45,
+
+"time":"45 mins",
+
+"servings":3,
+
+"ingredients":[
+"Chicken pieces",
+"Curd",
+"Red chilli powder",
+"Ginger garlic paste",
+"Corn flour",
+"Spices",
+"Curry leaves"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Marinate Chicken",
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+"description":"Mix chicken with curd, spices and ginger garlic paste.",
+"time":1200
+},
+
+{
+"title":"Step 2 - Fry Chicken",
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+"description":"Deep fry chicken pieces until crispy.",
+"time":900
+},
+
+{
+"title":"Step 3 - Temper Chicken",
+"image":"https://images.unsplash.com/photo-1585937421612-70a008356fbe",
+"description":"Add curry leaves and spices for final flavour.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"450 kcal",
+"protein":"32 g",
+"carbs":"15 g",
+"fat":"28 g"
+},
+
+"chefTips":[
+"Longer marination gives softer chicken.",
+"Serve hot for crispy texture."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"chicken",
+"south indian",
+"starter",
+"spicy",
+"fried"
+]
+
+},
+
+{
+"name":"Veg Manchurian",
+"slug":"veg-manchurian",
+
+"image":"https://images.unsplash.com/photo-1626776876729-bab4369d9a7a",
+
+"category":"Indo Chinese",
+
+"difficulty":"Medium",
+
+"rating":4.6,
+
+"reviews":25,
+
+"time":"40 mins",
+
+"servings":3,
+
+"ingredients":[
+"Cabbage",
+"Carrot",
+"Corn flour",
+"Garlic",
+"Soy sauce",
+"Chilli sauce",
+"Spring onion"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Manchurian Balls",
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+"description":"Mix vegetables with flour and make small balls.",
+"time":600
+},
+
+{
+"title":"Step 2 - Fry Balls",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Fry balls until golden and crispy.",
+"time":600
+},
+
+{
+"title":"Step 3 - Prepare Sauce",
+"image":"https://images.unsplash.com/photo-1569718212165-3a8278d5f624",
+"description":"Cook sauces with garlic and vegetables.",
+"time":600
+},
+
+{
+"title":"Step 4 - Combine",
+"image":"https://images.unsplash.com/photo-1626776876729-bab4369d9a7a",
+"description":"Add fried balls into sauce and serve hot.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"360 kcal",
+"protein":"10 g",
+"carbs":"50 g",
+"fat":"14 g"
+},
+
+"chefTips":[
+"Serve immediately to keep balls crispy."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"indo chinese",
+"manchurian",
+"street food",
+"vegetarian",
+"snacks"
+]
+
+},
+
+{
+"name":"Kadhai Paneer",
+"slug":"kadhai-paneer",
+
+"image":"https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+
+"category":"North Indian",
+
+"difficulty":"Medium",
+
+"rating":4.7,
+
+"reviews":32,
+
+"time":"40 mins",
+
+"servings":4,
+
+"ingredients":[
+"Paneer",
+"Capsicum",
+"Onion",
+"Tomatoes",
+"Kadhai masala",
+"Spices",
+"Butter"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Masala",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Cook onion, tomatoes and spices to prepare masala.",
+"time":900
+},
+
+{
+"title":"Step 2 - Add Paneer",
+"image":"https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+"description":"Add paneer cubes and mix with masala.",
+"time":600
+},
+
+{
+"title":"Step 3 - Finish Cooking",
+"image":"https://images.unsplash.com/photo-1585937421612-70a008356fbe",
+"description":"Add capsicum and cook until flavours combine.",
+"time":600
+}
+
+],
+
+"nutrition":{
+"calories":"400 kcal",
+"protein":"20 g",
+"carbs":"18 g",
+"fat":"28 g"
+},
+
+"chefTips":[
+"Use homemade kadhai masala for authentic flavour.",
+"Do not overcook paneer."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"indian",
+"paneer",
+"north indian",
+"curry",
+"vegetarian"
+]
+
+},
+
+{
+"name":"Chicken Shawarma",
+"slug":"chicken-shawarma",
+
+"image":"https://images.unsplash.com/photo-1529006557810-274b9b2fc783",
+
+"category":"Middle Eastern",
+
+"difficulty":"Medium",
+
+"rating":4.8,
+
+"reviews":38,
+
+"time":"45 mins",
+
+"servings":3,
+
+"ingredients":[
+"Chicken",
+"Pita bread",
+"Yogurt",
+"Garlic",
+"Lettuce",
+"Tomato",
+"Mayonnaise",
+"Spices"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Marinate Chicken",
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+"description":"Mix chicken with yogurt, garlic and spices. Keep it for marination.",
+"time":1200
+},
+
+{
+"title":"Step 2 - Cook Chicken",
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+"description":"Cook chicken until tender and slightly smoky.",
+"time":900
+},
+
+{
+"title":"Step 3 - Prepare Wrap",
+"image":"https://images.unsplash.com/photo-1529006557810-274b9b2fc783",
+"description":"Place chicken and vegetables inside pita bread with sauce.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"520 kcal",
+"protein":"35 g",
+"carbs":"45 g",
+"fat":"22 g"
+},
+
+"chefTips":[
+"Marinate chicken overnight for better flavour.",
+"Use fresh garlic sauce."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"shawarma",
+"middle eastern",
+"chicken",
+"wrap",
+"street food"
+]
+
+},
+
+{
+"name":"Tandoori Chicken",
+"slug":"tandoori-chicken",
+
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+
+"category":"Indian",
+
+"difficulty":"Medium",
+
+"rating":4.9,
+
+"reviews":55,
+
+"time":"60 mins",
+
+"servings":4,
+
+"ingredients":[
+"Chicken legs",
+"Yogurt",
+"Red chilli powder",
+"Ginger garlic paste",
+"Garam masala",
+"Lemon juice"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Marinade",
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+"description":"Mix yogurt, spices and lemon juice to prepare marinade.",
+"time":600
+},
+
+{
+"title":"Step 2 - Marinate Chicken",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Coat chicken properly and keep it aside.",
+"time":1800
+},
+
+{
+"title":"Step 3 - Grill Chicken",
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+"description":"Grill chicken until cooked and smoky.",
+"time":1200
+}
+
+],
+
+"nutrition":{
+"calories":"480 kcal",
+"protein":"40 g",
+"carbs":"12 g",
+"fat":"28 g"
+},
+
+"chefTips":[
+"Make deep cuts on chicken for better marination.",
+"Use charcoal grilling for smoky flavour."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"indian",
+"chicken",
+"tandoori",
+"grilled",
+"starter"
+]
+
+},
+
+{
+"name":"Veg Momos",
+"slug":"veg-momos",
+
+"image":"https://images.unsplash.com/photo-1626777552726-4a6b54c97e46",
+
+"category":"Tibetan",
+
+"difficulty":"Medium",
+
+"rating":4.6,
+
+"reviews":30,
+
+"time":"45 mins",
+
+"servings":4,
+
+"ingredients":[
+"Flour",
+"Cabbage",
+"Carrot",
+"Onion",
+"Garlic",
+"Soy sauce",
+"Pepper"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Filling",
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+"description":"Mix chopped vegetables with spices and sauces.",
+"time":600
+},
+
+{
+"title":"Step 2 - Make Momos",
+"image":"https://images.unsplash.com/photo-1626777552726-4a6b54c97e46",
+"description":"Fill dough wrappers and shape momos.",
+"time":900
+},
+
+{
+"title":"Step 3 - Steam Momos",
+"image":"https://images.unsplash.com/photo-1626777552726-4a6b54c97e46",
+"description":"Steam momos until soft and cooked.",
+"time":600
+}
+
+],
+
+"nutrition":{
+"calories":"250 kcal",
+"protein":"8 g",
+"carbs":"40 g",
+"fat":"6 g"
+},
+
+"chefTips":[
+"Make thin wrappers for soft momos.",
+"Serve with spicy chutney."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"momos",
+"tibetan",
+"snacks",
+"vegetarian",
+"street food"
+]
+
+},
+
+{
+"name":"Chicken Momos",
+"slug":"chicken-momos",
+
+"image":"https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7",
+
+"category":"Tibetan",
+
+"difficulty":"Medium",
+
+"rating":4.7,
+
+"reviews":35,
+
+"time":"50 mins",
+
+"servings":4,
+
+"ingredients":[
+"Chicken mince",
+"Flour",
+"Onion",
+"Garlic",
+"Ginger",
+"Soy sauce",
+"Pepper"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Chicken Filling",
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+"description":"Mix minced chicken with spices and vegetables.",
+"time":600
+},
+
+{
+"title":"Step 2 - Shape Momos",
+"image":"https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7",
+"description":"Fill dough wrappers and seal properly.",
+"time":900
+},
+
+{
+"title":"Step 3 - Steam",
+"image":"https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7",
+"description":"Steam momos until chicken is completely cooked.",
+"time":900
+}
+
+],
+
+"nutrition":{
+"calories":"350 kcal",
+"protein":"25 g",
+"carbs":"35 g",
+"fat":"12 g"
+},
+
+"chefTips":[
+"Do not overfill momos.",
+"Serve hot with chutney."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"momos",
+"chicken",
+"tibetan",
+"snacks",
+"street food"
+]
+
+},
+
+{
+"name":"Gulab Jamun",
+"slug":"gulab-jamun",
+
+"image":"https://images.unsplash.com/photo-1666190092157-9f5e2c5e7e2f",
+
+"category":"Dessert",
+
+"difficulty":"Medium",
+
+"rating":4.9,
+
+"reviews":60,
+
+"time":"45 mins",
+
+"servings":6,
+
+"ingredients":[
+"Milk powder",
+"Flour",
+"Baking soda",
+"Milk",
+"Sugar",
+"Cardamom",
+"Oil"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Dough",
+
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+
+"description":"Mix milk powder, flour and milk to prepare soft dough.",
+
+"time":600
+},
+
+{
+"title":"Step 2 - Make Sugar Syrup",
+
+"image":"https://images.unsplash.com/photo-1606313564200-e75d5e30476b",
+
+"description":"Boil sugar with water and add cardamom flavour.",
+
+"time":600
+},
+
+{
+"title":"Step 3 - Fry Jamuns",
+
+"image":"https://images.unsplash.com/photo-1666190092157-9f5e2c5e7e2f",
+
+"description":"Make small balls and fry until golden brown.",
+
+"time":900
+},
+
+{
+"title":"Step 4 - Soak in Syrup",
+
+"image":"https://images.unsplash.com/photo-1666190092157-9f5e2c5e7e2f",
+
+"description":"Add fried jamuns into warm sugar syrup.",
+
+"time":600
+}
+
+],
+
+"nutrition":{
+"calories":"320 kcal",
+"protein":"6 g",
+"carbs":"45 g",
+"fat":"14 g"
+},
+
+"chefTips":[
+"Keep dough soft for juicy jamuns.",
+"Serve warm for best taste."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"dessert",
+"sweet",
+"indian",
+"gulab jamun",
+"festival"
+]
+
+},
+
+{
+"name":"Lasagna",
+"slug":"lasagna",
+
+"image":"https://images.unsplash.com/photo-1574894709920-11b28e7367e3",
+
+"category":"Italian",
+
+"difficulty":"Medium",
+
+"rating":4.8,
+
+"reviews":40,
+
+"time":"70 mins",
+
+"servings":6,
+
+"ingredients":[
+"Lasagna sheets",
+"Tomato sauce",
+"Cheese",
+"Vegetables",
+"White sauce",
+"Herbs"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Sauce",
+
+"image":"https://images.unsplash.com/photo-1473093295043-cdd812d0e601",
+
+"description":"Prepare tomato sauce with herbs and spices.",
+
+"time":900
+},
+
+{
+"title":"Step 2 - Prepare White Sauce",
+
+"image":"https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9",
+
+"description":"Cook creamy white sauce using milk and butter.",
+
+"time":600
+},
+
+{
+"title":"Step 3 - Layer Lasagna",
+
+"image":"https://images.unsplash.com/photo-1574894709920-11b28e7367e3",
+
+"description":"Arrange sheets, sauces and cheese in layers.",
+
+"time":600
+},
+
+{
+"title":"Step 4 - Bake",
+
+"image":"https://images.unsplash.com/photo-1574894709920-11b28e7367e3",
+
+"description":"Bake until cheese melts and top becomes golden.",
+
+"time":1800
+}
+
+],
+
+"nutrition":{
+"calories":"550 kcal",
+"protein":"25 g",
+"carbs":"60 g",
+"fat":"25 g"
+},
+
+"chefTips":[
+"Use fresh cheese for better flavour.",
+"Allow lasagna to rest before cutting."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"italian",
+"pasta",
+"cheese",
+"baked",
+"vegetarian"
+]
+
+},
+
+{
+"name":"Chocolate Cake",
+"slug":"chocolate-cake",
+
+"image":"https://images.unsplash.com/photo-1578985545062-69928b1d9587",
+
+"category":"Dessert",
+
+"difficulty":"Medium",
+
+"rating":4.8,
+
+"reviews":50,
+
+"time":"60 mins",
+
+"servings":8,
+
+"ingredients":[
+"Flour",
+"Cocoa powder",
+"Sugar",
+"Eggs",
+"Milk",
+"Butter",
+"Baking powder"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Batter",
+
+"image":"https://images.unsplash.com/photo-1559620192-032c4bc4674e",
+
+"description":"Mix flour, cocoa, sugar and other ingredients.",
+
+"time":900
+},
+
+{
+"title":"Step 2 - Bake Cake",
+
+"image":"https://images.unsplash.com/photo-1578985545062-69928b1d9587",
+
+"description":"Pour batter into mould and bake properly.",
+
+"time":2400
+},
+
+{
+"title":"Step 3 - Decorate",
+
+"image":"https://images.unsplash.com/photo-1578985545062-69928b1d9587",
+
+"description":"Add chocolate frosting and decorate cake.",
+
+"time":600
+}
+
+],
+
+"nutrition":{
+"calories":"450 kcal",
+"protein":"7 g",
+"carbs":"55 g",
+"fat":"22 g"
+},
+
+"chefTips":[
+"Do not overmix batter.",
+"Preheat oven before baking."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"cake",
+"chocolate",
+"dessert",
+"baking",
+"sweet"
+]
+
+},
+
+{
+"name":"Chicken Noodles",
+"slug":"chicken-noodles",
+
+"image":"https://images.unsplash.com/photo-1569718212165-3a8278d5f624",
+
+"category":"Chinese",
+
+"difficulty":"Easy",
+
+"rating":4.6,
+
+"reviews":25,
+
+"time":"30 mins",
+
+"servings":3,
+
+"ingredients":[
+"Noodles",
+"Chicken",
+"Capsicum",
+"Carrot",
+"Soy sauce",
+"Garlic",
+"Pepper"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Cook Chicken",
+
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+
+"description":"Cook chicken pieces with spices.",
+
+"time":600
+},
+
+{
+"title":"Step 2 - Stir Fry Vegetables",
+
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+
+"description":"Stir fry vegetables with sauces.",
+
+"time":300
+},
+
+{
+"title":"Step 3 - Mix Noodles",
+
+"image":"https://images.unsplash.com/photo-1569718212165-3a8278d5f624",
+
+"description":"Add noodles and chicken together.",
+
+"time":600
+}
+
+],
+
+"nutrition":{
+"calories":"430 kcal",
+"protein":"28 g",
+"carbs":"55 g",
+"fat":"14 g"
+},
+
+"chefTips":[
+"Cook on high flame for restaurant taste."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"chinese",
+"noodles",
+"chicken",
+"fast food",
+"street food"
+]
+
+},
+
+{
+"name":"Misal Pav",
+"slug":"misal-pav",
+
+"image":"https://images.unsplash.com/photo-1606491956689-2ea866880c84",
+
+"category":"Indian",
+
+"difficulty":"Medium",
+
+"rating":4.7,
+
+"reviews":35,
+
+"time":"50 mins",
+
+"servings":4,
+
+"ingredients":[
+"Matki sprouts",
+"Onion",
+"Tomatoes",
+"Misal masala",
+"Spices",
+"Pav buns",
+"Farsan",
+"Coriander",
+"Lemon"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Sprouts Curry",
+
+"image":"https://images.unsplash.com/photo-1547592180-85f173990554",
+
+"description":"Cook matki sprouts with onion, tomato and misal spices to prepare spicy curry.",
+
+"time":1200
+},
+
+{
+"title":"Step 2 - Prepare Misal Gravy",
+
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+
+"description":"Prepare spicy red gravy using oil, spices and masala.",
+
+"time":600
+},
+
+{
+"title":"Step 3 - Assemble Misal",
+
+"image":"https://images.unsplash.com/photo-1626132647523-66f5bf380027",
+
+"description":"Add sprouts curry, gravy, farsan, onion and coriander together.",
+
+"time":300
+},
+
+{
+"title":"Step 4 - Serve With Pav",
+
+"image":"https://images.unsplash.com/photo-1509440159596-0249088772ff",
+
+"description":"Toast pav buns and serve hot with misal.",
+
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"420 kcal",
+"protein":"18 g",
+"carbs":"65 g",
+"fat":"12 g"
+},
+
+"chefTips":[
+"Use fresh farsan for crispy texture.",
+"Adjust spice level according to taste."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"maharashtra",
+"misal",
+"street food",
+"spicy",
+"breakfast",
+"vegetarian"
+]
+
+},
+
+
+{
+"name":"Fish Curry",
+"slug":"fish-curry",
+
+"image":"https://images.unsplash.com/photo-1534766555764-ce878a5e3a2b",
+
+"category":"Indian",
+
+"difficulty":"Medium",
+
+"rating":4.7,
+
+"reviews":30,
+
+"time":"45 mins",
+
+"servings":4,
+
+"ingredients":[
+"Fish pieces",
+"Coconut milk",
+"Onion",
+"Tomatoes",
+"Turmeric",
+"Red chilli",
+"Ginger garlic paste",
+"Spices"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Marinate Fish",
+
+"image":"https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2",
+
+"description":"Clean fish pieces and marinate with turmeric, salt and spices.",
+
+"time":600
+},
+
+{
+"title":"Step 2 - Prepare Curry Base",
+
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+
+"description":"Cook onion, tomato, ginger garlic paste and spices to make curry base.",
+
+"time":900
+},
+
+{
+"title":"Step 3 - Add Fish",
+
+"image":"https://images.unsplash.com/photo-1534766555764-ce878a5e3a2b",
+
+"description":"Add fish pieces into curry and cook gently.",
+
+"time":900
+},
+
+{
+"title":"Step 4 - Finish Curry",
+
+"image":"https://images.unsplash.com/photo-1534766555764-ce878a5e3a2b",
+
+"description":"Add coconut milk and simmer until flavours combine.",
+
+"time":600
+}
+
+],
+
+"nutrition":{
+"calories":"380 kcal",
+"protein":"32 g",
+"carbs":"15 g",
+"fat":"22 g"
+},
+
+"chefTips":[
+"Do not overcook fish.",
+"Use fresh fish for better flavour."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"fish",
+"seafood",
+"indian",
+"curry",
+"non veg",
+"dinner"
+]
+
+},
+
+{
+"name":"Sushi",
+"slug":"sushi",
+
+"image":"https://images.unsplash.com/photo-1579871494447-9811cf80d66c",
+
+"category":"Japanese",
+
+"difficulty":"Medium",
+
+"rating":4.8,
+
+"reviews":45,
+
+"time":"60 mins",
+
+"servings":3,
+
+"ingredients":[
+"Sushi rice",
+"Nori sheets",
+"Fish or vegetables",
+"Soy sauce",
+"Wasabi",
+"Rice vinegar",
+"Cucumber",
+"Avocado"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Sushi Rice",
+
+"image":"https://images.unsplash.com/photo-1516685018646-549d9a4b42c6",
+
+"description":"Cook sushi rice and mix it with rice vinegar. Allow it to cool.",
+
+"time":1200
+},
+
+{
+"title":"Step 2 - Prepare Fillings",
+
+"image":"https://images.unsplash.com/photo-1579871494447-9811cf80d66c",
+
+"description":"Cut vegetables or fish into thin slices for filling.",
+
+"time":600
+},
+
+{
+"title":"Step 3 - Roll Sushi",
+
+"image":"https://images.unsplash.com/photo-1553621042-f6e147245754",
+
+"description":"Place rice and fillings on nori sheet and roll tightly.",
+
+"time":600
+},
+
+{
+"title":"Step 4 - Cut and Serve",
+
+"image":"https://images.unsplash.com/photo-1579871494447-9811cf80d66c",
+
+"description":"Cut sushi roll into pieces and serve with soy sauce.",
+
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"350 kcal",
+"protein":"18 g",
+"carbs":"55 g",
+"fat":"8 g"
+},
+
+"chefTips":[
+"Use short grain sushi rice for best texture.",
+"Keep knife wet while cutting rolls."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"japanese",
+"sushi",
+"seafood",
+"rice",
+"asian",
+"international"
+]
+
+},
+
+{
+"name":"Tacos",
+"slug":"tacos",
+
+"image":"https://images.unsplash.com/photo-1552332386-f8dd00dc2f85",
+
+"category":"Mexican",
+
+"difficulty":"Easy",
+
+"rating":4.6,
+
+"reviews":28,
+
+"time":"30 mins",
+
+"servings":4,
+
+"ingredients":[
+"Taco shells",
+"Chicken or beans",
+"Lettuce",
+"Tomatoes",
+"Cheese",
+"Onion",
+"Salsa",
+"Spices"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Filling",
+
+"image":"https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+
+"description":"Cook chicken or beans with spices until flavourful.",
+
+"time":900
+},
+
+{
+"title":"Step 2 - Prepare Vegetables",
+
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+
+"description":"Chop lettuce, tomatoes and onions for topping.",
+
+"time":300
+},
+
+{
+"title":"Step 3 - Fill Taco Shells",
+
+"image":"https://images.unsplash.com/photo-1552332386-f8dd00dc2f85",
+
+"description":"Add cooked filling, vegetables, cheese and salsa into shells.",
+
+"time":300
+},
+
+{
+"title":"Step 4 - Serve Tacos",
+
+"image":"https://images.unsplash.com/photo-1552332386-f8dd00dc2f85",
+
+"description":"Serve fresh tacos with extra salsa and toppings.",
+
+"time":180
+}
+
+],
+
+"nutrition":{
+"calories":"400 kcal",
+"protein":"22 g",
+"carbs":"45 g",
+"fat":"18 g"
+},
+
+"chefTips":[
+"Warm taco shells before serving.",
+"Add fresh salsa for better taste."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"mexican",
+"tacos",
+"street food",
+"chicken",
+"international"
+]
+
+},
+
+
+{
+"name":"Ramen",
+"slug":"ramen",
+
+"image":"https://images.unsplash.com/photo-1569718212165-3a8278d5f624",
+
+"category":"Japanese",
+
+"difficulty":"Medium",
+
+"rating":4.8,
+
+"reviews":40,
+
+"time":"50 mins",
+
+"servings":3,
+
+"ingredients":[
+"Ramen noodles",
+"Chicken broth",
+"Egg",
+"Spring onion",
+"Mushroom",
+"Soy sauce",
+"Garlic",
+"Ginger"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Broth",
+"image":"https://images.unsplash.com/photo-1547592180-85f173990554",
+
+"description":"Cook broth with garlic, ginger and soy sauce for deep flavour.",
+
+"time":1800
+},
+
+{
+"title":"Step 2 - Cook Noodles",
+"image":"https://images.unsplash.com/photo-1569718212165-3a8278d5f624",
+
+"description":"Boil ramen noodles until soft.",
+
+"time":600
+},
+
+{
+"title":"Step 3 - Add Toppings",
+"image":"https://images.unsplash.com/photo-1579871494447-9811cf80d66c",
+
+"description":"Add egg, mushrooms and spring onions.",
+
+"time":300
+},
+
+{
+"title":"Step 4 - Serve Ramen",
+"image":"https://images.unsplash.com/photo-1569718212165-3a8278d5f624",
+
+"description":"Pour hot broth over noodles and serve immediately.",
+
+"time":180
+}
+
+],
+
+"nutrition":{
+"calories":"420 kcal",
+"protein":"20 g",
+"carbs":"60 g",
+"fat":"12 g"
+},
+
+"chefTips":[
+"Slow cook broth for richer taste.",
+"Use fresh noodles if possible."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"japanese",
+"ramen",
+"noodles",
+"asian",
+"soup"
+]
+
+},
+
+{
+"name":"Mutton Rogan Josh",
+"slug":"mutton-rogan-josh",
+
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+
+"category":"Indian",
+
+"difficulty":"Hard",
+
+"rating":4.8,
+
+"reviews":35,
+
+"time":"90 mins",
+
+"servings":5,
+
+"ingredients":[
+"Mutton",
+"Yogurt",
+"Onion",
+"Kashmiri chilli",
+"Ginger garlic paste",
+"Indian spices",
+"Oil"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Marinate Mutton",
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+
+"description":"Mix mutton with yogurt and spices. Keep aside for marination.",
+
+"time":1800
+},
+
+{
+"title":"Step 2 - Cook Mutton",
+"image":"https://images.unsplash.com/photo-1585937421612-70a008356fbe",
+
+"description":"Slow cook mutton with spices until tender.",
+
+"time":3600
+},
+
+{
+"title":"Step 3 - Prepare Gravy",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+
+"description":"Add spices and yogurt to create rich gravy.",
+
+"time":900
+}
+
+],
+
+"nutrition":{
+"calories":"650 kcal",
+"protein":"40 g",
+"carbs":"20 g",
+"fat":"45 g"
+},
+
+"chefTips":[
+"Slow cooking improves flavour.",
+"Use Kashmiri chilli for authentic colour."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"indian",
+"kashmiri",
+"mutton",
+"curry",
+"spicy"
+]
+
+},
+
+{
+"name":"Chicken Korma",
+"slug":"chicken-korma",
+
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+
+"category":"Indian",
+
+"difficulty":"Medium",
+
+"rating":4.7,
+
+"reviews":30,
+
+"time":"55 mins",
+
+"servings":4,
+
+"ingredients":[
+"Chicken",
+"Yogurt",
+"Cashews",
+"Onion",
+"Cream",
+"Spices",
+"Ginger garlic paste"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Chicken",
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+
+"description":"Marinate chicken with yogurt and spices.",
+
+"time":1200
+},
+
+{
+"title":"Step 2 - Make Korma Gravy",
+"image":"https://images.unsplash.com/photo-1585937421612-70a008356fbe",
+
+"description":"Cook onions, cashews and spices to make creamy gravy.",
+
+"time":900
+},
+
+{
+"title":"Step 3 - Cook Chicken",
+
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+
+"description":"Add chicken to gravy and cook until tender.",
+
+"time":1500
+},
+
+{
+"title":"Step 4 - Finish Dish",
+
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+
+"description":"Add cream and garnish before serving.",
+
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"520 kcal",
+"protein":"35 g",
+"carbs":"15 g",
+"fat":"35 g"
+},
+
+"chefTips":[
+"Use roasted cashews for richer flavour.",
+"Cook on low flame for creamy texture."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"indian",
+"chicken",
+"korma",
+"curry",
+"creamy"
+]
+
+},
+
+{
+"name":"Thai Green Curry",
+"slug":"thai-green-curry",
+"image":"https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd",
+
+"category":"Thai",
+
+"difficulty":"Medium",
+
+"rating":4.7,
+
+"reviews":35,
+
+"time":"45 mins",
+
+"servings":4,
+
+"ingredients":[
+"Coconut milk",
+"Green curry paste",
+"Chicken or vegetables",
+"Bell peppers",
+"Basil leaves",
+"Thai spices",
+"Garlic"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Curry Base",
+"image":"https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd",
+"description":"Cook garlic and green curry paste with coconut milk to create a creamy base.",
+"time":600
+},
+
+{
+"title":"Step 2 - Add Vegetables and Protein",
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+"description":"Add vegetables or chicken pieces and cook until tender.",
+"time":1200
+},
+
+{
+"title":"Step 3 - Finish Curry",
+"image":"https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd",
+"description":"Add basil leaves and adjust seasoning before serving.",
+"time":600
+}
+
+],
+
+"nutrition":{
+"calories":"450 kcal",
+"protein":"25 g",
+"carbs":"30 g",
+"fat":"28 g"
+},
+
+"chefTips":[
+"Use fresh basil for authentic Thai flavour.",
+"Do not boil coconut milk too aggressively."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"thai",
+"curry",
+"asian",
+"coconut",
+"international"
+]
+},
+
+{
+"name":"Chicken Parmesan",
+"slug":"chicken-parmesan",
+
+"image":"https://images.unsplash.com/photo-1604908176997-125f25cc6f3d",
+
+"category":"Italian",
+
+"difficulty":"Medium",
+
+"rating":4.8,
+
+"reviews":40,
+
+"time":"50 mins",
+
+"servings":4,
+
+"ingredients":[
+"Chicken breast",
+"Breadcrumbs",
+"Cheese",
+"Tomato sauce",
+"Egg",
+"Herbs",
+"Olive oil"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Chicken",
+"image":"https://images.unsplash.com/photo-1604908176997-125f25cc6f3d",
+"description":"Coat chicken with egg and breadcrumbs.",
+"time":600
+},
+
+{
+"title":"Step 2 - Fry Chicken",
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+"description":"Cook chicken until crispy and golden.",
+"time":900
+},
+
+{
+"title":"Step 3 - Add Sauce and Cheese",
+"image":"https://images.unsplash.com/photo-1473093295043-cdd812d0e601",
+"description":"Add tomato sauce and cheese on chicken.",
+"time":300
+},
+
+{
+"title":"Step 4 - Bake",
+"image":"https://images.unsplash.com/photo-1574894709920-11b28e7367e3",
+"description":"Bake until cheese melts completely.",
+"time":900
+}
+
+],
+
+"nutrition":{
+"calories":"520 kcal",
+"protein":"42 g",
+"carbs":"35 g",
+"fat":"25 g"
+},
+
+"chefTips":[
+"Use fresh parmesan cheese.",
+"Do not over fry chicken."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"italian",
+"chicken",
+"cheese",
+"baked",
+"dinner"
+]
+},
+
+{
+"name":"Falafel Wrap",
+"slug":"falafel-wrap",
+
+"image":"https://images.unsplash.com/photo-1529006557810-274b9b2fc783",
+
+"category":"Middle Eastern",
+
+"difficulty":"Medium",
+
+"rating":4.6,
+
+"reviews":25,
+
+"time":"40 mins",
+
+"servings":3,
+
+"ingredients":[
+"Chickpeas",
+"Pita bread",
+"Lettuce",
+"Tomato",
+"Garlic sauce",
+"Spices",
+"Onion"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Falafel Mixture",
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+"description":"Blend chickpeas with spices and prepare falafel balls.",
+"time":600
+},
+
+{
+"title":"Step 2 - Fry Falafel",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Cook falafel until crispy.",
+"time":900
+},
+
+{
+"title":"Step 3 - Prepare Wrap",
+"image":"https://images.unsplash.com/photo-1529006557810-274b9b2fc783",
+"description":"Add falafel, vegetables and sauce inside pita bread.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"380 kcal",
+"protein":"14 g",
+"carbs":"55 g",
+"fat":"12 g"
+},
+
+"chefTips":[
+"Keep chickpea mixture slightly coarse.",
+"Serve with fresh garlic sauce."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"middle eastern",
+"wrap",
+"vegetarian",
+"street food"
+]
+},
+
+{
+"name":"Korean Fried Chicken",
+"slug":"korean-fried-chicken",
+
+"image":"https://images.unsplash.com/photo-1569058242253-92a9c755a0ec",
+
+"category":"Korean",
+
+"difficulty":"Medium",
+
+"rating":4.8,
+
+"reviews":45,
+
+"time":"50 mins",
+
+"servings":4,
+
+"ingredients":[
+"Chicken wings",
+"Corn flour",
+"Garlic",
+"Chilli sauce",
+"Soy sauce",
+"Honey",
+"Sesame seeds"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Marinate Chicken",
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+"description":"Mix chicken with spices and keep for marination.",
+"time":900
+},
+
+{
+"title":"Step 2 - Fry Chicken",
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+"description":"Deep fry chicken until crispy.",
+"time":900
+},
+
+{
+"title":"Step 3 - Prepare Sauce",
+"image":"https://images.unsplash.com/photo-1569718212165-3a8278d5f624",
+"description":"Mix chilli sauce, honey and soy sauce.",
+"time":300
+},
+
+{
+"title":"Step 4 - Coat Chicken",
+"image":"https://images.unsplash.com/photo-1569058242253-92a9c755a0ec",
+"description":"Mix fried chicken with Korean sauce and sesame seeds.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"550 kcal",
+"protein":"35 g",
+"carbs":"25 g",
+"fat":"35 g"
+},
+
+"chefTips":[
+"Double frying makes chicken extra crispy.",
+"Balance spice with honey."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"korean",
+"chicken",
+"fried",
+"spicy",
+"asian"
+]
+},
+
+{
+"name":"Chicken Alfredo",
+"slug":"chicken-alfredo",
+
+"image":"https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9",
+
+"category":"Italian",
+
+"difficulty":"Medium",
+
+"rating":4.7,
+
+"reviews":38,
+
+"time":"40 mins",
+
+"servings":4,
+
+"ingredients":[
+"Fettuccine pasta",
+"Chicken breast",
+"Cream",
+"Butter",
+"Garlic",
+"Parmesan cheese",
+"Black pepper"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Cook Chicken",
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+"description":"Season chicken and cook until golden and tender.",
+"time":900
+},
+
+{
+"title":"Step 2 - Prepare Alfredo Sauce",
+"image":"https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9",
+"description":"Cook butter, garlic, cream and parmesan cheese to prepare creamy sauce.",
+"time":600
+},
+
+{
+"title":"Step 3 - Cook Pasta",
+"image":"https://images.unsplash.com/photo-1551183053-bf91a1d81141",
+"description":"Boil pasta until soft and drain properly.",
+"time":600
+},
+
+{
+"title":"Step 4 - Combine",
+"image":"https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9",
+"description":"Mix pasta, chicken and sauce together before serving.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"600 kcal",
+"protein":"35 g",
+"carbs":"55 g",
+"fat":"28 g"
+},
+
+"chefTips":[
+"Use freshly grated parmesan for better flavour.",
+"Do not overheat cream sauce."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"italian",
+"pasta",
+"chicken",
+"creamy",
+"dinner"
+]
+},
+
+{
+"name":"Pesto Pasta",
+"slug":"pesto-pasta",
+
+"image":"https://images.unsplash.com/photo-1473093295043-cdd812d0e601",
+
+"category":"Italian",
+
+"difficulty":"Easy",
+
+"rating":4.6,
+
+"reviews":28,
+
+"time":"25 mins",
+
+"servings":3,
+
+"ingredients":[
+"Pasta",
+"Basil leaves",
+"Olive oil",
+"Garlic",
+"Cashews",
+"Parmesan cheese",
+"Salt"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Boil Pasta",
+"image":"https://images.unsplash.com/photo-1551183053-bf91a1d81141",
+"description":"Cook pasta in salted water until soft.",
+"time":600
+},
+
+{
+"title":"Step 2 - Prepare Pesto",
+"image":"https://images.unsplash.com/photo-1547592180-85f173990554",
+"description":"Blend basil, garlic, nuts, olive oil and cheese to make pesto sauce.",
+"time":600
+},
+
+{
+"title":"Step 3 - Mix Pasta",
+"image":"https://images.unsplash.com/photo-1473093295043-cdd812d0e601",
+"description":"Combine pasta with fresh pesto sauce.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"420 kcal",
+"protein":"15 g",
+"carbs":"50 g",
+"fat":"18 g"
+},
+
+"chefTips":[
+"Use fresh basil leaves.",
+"Add pasta water for smoother sauce."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"italian",
+"pasta",
+"basil",
+"vegetarian",
+"quick meal"
+]
+},
+
+{
+"name":"Chicken Teriyaki",
+"slug":"chicken-teriyaki",
+
+"image":"https://images.unsplash.com/photo-1547592180-85f173990554",
+
+"category":"Japanese",
+
+"difficulty":"Medium",
+
+"rating":4.8,
+
+"reviews":42,
+
+"time":"45 mins",
+
+"servings":4,
+
+"ingredients":[
+"Chicken",
+"Soy sauce",
+"Honey",
+"Ginger",
+"Garlic",
+"Sesame seeds",
+"Rice"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Teriyaki Sauce",
+"image":"https://images.unsplash.com/photo-1569718212165-3a8278d5f624",
+"description":"Mix soy sauce, honey, ginger and garlic to create sauce.",
+"time":300
+},
+
+{
+"title":"Step 2 - Cook Chicken",
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+"description":"Cook chicken pieces until properly browned.",
+"time":900
+},
+
+{
+"title":"Step 3 - Add Sauce",
+"image":"https://images.unsplash.com/photo-1547592180-85f173990554",
+"description":"Coat chicken with teriyaki sauce and simmer.",
+"time":600
+},
+
+{
+"title":"Step 4 - Serve",
+"image":"https://images.unsplash.com/photo-1547592180-85f173990554",
+"description":"Serve chicken teriyaki with steamed rice.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"520 kcal",
+"protein":"38 g",
+"carbs":"45 g",
+"fat":"20 g"
+},
+
+"chefTips":[
+"Marinate chicken before cooking.",
+"Use sesame seeds for authentic taste."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"japanese",
+"chicken",
+"rice",
+"asian",
+"teriyaki"
+]
+},
+
+{
+"name":"Veg Thai Spring Rolls",
+"slug":"veg-thai-spring-rolls",
+
+"image":"https://images.unsplash.com/photo-1547592180-85f173990554",
+
+"category":"Thai",
+
+"difficulty":"Medium",
+
+"rating":4.5,
+
+"reviews":22,
+
+"time":"35 mins",
+
+"servings":4,
+
+"ingredients":[
+"Spring roll sheets",
+"Cabbage",
+"Carrot",
+"Capsicum",
+"Garlic",
+"Soy sauce",
+"Pepper"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Filling",
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+"description":"Stir fry vegetables with garlic and sauces.",
+"time":600
+},
+
+{
+"title":"Step 2 - Wrap Rolls",
+"image":"https://images.unsplash.com/photo-1626777552726-4a6b54c97e46",
+"description":"Fill spring roll sheets and seal properly.",
+"time":600
+},
+
+{
+"title":"Step 3 - Fry Rolls",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Deep fry rolls until crispy and golden.",
+"time":600
+}
+
+],
+
+"nutrition":{
+"calories":"280 kcal",
+"protein":"8 g",
+"carbs":"40 g",
+"fat":"10 g"
+},
+
+"chefTips":[
+"Keep filling dry to avoid soggy rolls.",
+"Serve with sweet chilli sauce."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"thai",
+"spring rolls",
+"snacks",
+"vegetarian",
+"asian"
+]
+},
+
+{
+"name":"Chicken Fajitas",
+"slug":"chicken-fajitas",
+
+"image":"https://images.unsplash.com/photo-1552332386-f8dd00dc2f85",
+
+"category":"Mexican",
+
+"difficulty":"Medium",
+
+"rating":4.7,
+
+"reviews":32,
+
+"time":"35 mins",
+
+"servings":4,
+
+"ingredients":[
+"Chicken strips",
+"Bell peppers",
+"Onion",
+"Tortilla wraps",
+"Paprika",
+"Garlic",
+"Lime juice",
+"Cheese"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Marinate Chicken",
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+"description":"Mix chicken with spices, garlic and lime juice. Keep aside for flavour.",
+"time":900
+},
+
+{
+"title":"Step 2 - Cook Chicken",
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+"description":"Cook chicken strips until tender and slightly roasted.",
+"time":900
+},
+
+{
+"title":"Step 3 - Stir Fry Vegetables",
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+"description":"Cook onions and bell peppers until slightly crispy.",
+"time":300
+},
+
+{
+"title":"Step 4 - Assemble Wrap",
+"image":"https://images.unsplash.com/photo-1552332386-f8dd00dc2f85",
+"description":"Add chicken and vegetables into tortilla wraps with cheese.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"450 kcal",
+"protein":"35 g",
+"carbs":"40 g",
+"fat":"18 g"
+},
+
+"chefTips":[
+"Cook vegetables on high flame for better texture.",
+"Fresh lime juice improves flavour."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"mexican",
+"chicken",
+"wrap",
+"spicy",
+"international"
+]
+},
+
+{
+"name":"Greek Salad",
+"slug":"greek-salad",
+
+"image":"https://images.unsplash.com/photo-1540420773420-3366772f4999",
+
+"category":"Mediterranean",
+
+"difficulty":"Easy",
+
+"rating":4.5,
+
+"reviews":20,
+
+"time":"15 mins",
+
+"servings":3,
+
+"ingredients":[
+"Cucumber",
+"Tomatoes",
+"Olives",
+"Feta cheese",
+"Onion",
+"Olive oil",
+"Lemon juice",
+"Black pepper"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Cut Vegetables",
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+"description":"Wash and cut cucumber, tomatoes and onions into pieces.",
+"time":300
+},
+
+{
+"title":"Step 2 - Add Cheese",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Add feta cheese and olives to the vegetables.",
+"time":120
+},
+
+{
+"title":"Step 3 - Prepare Dressing",
+"image":"https://images.unsplash.com/photo-1540420773420-3366772f4999",
+"description":"Mix olive oil, lemon juice and seasoning.",
+"time":180
+},
+
+{
+"title":"Step 4 - Serve",
+"image":"https://images.unsplash.com/photo-1540420773420-3366772f4999",
+"description":"Combine everything and serve fresh.",
+"time":120
+}
+
+],
+
+"nutrition":{
+"calories":"220 kcal",
+"protein":"8 g",
+"carbs":"18 g",
+"fat":"14 g"
+},
+
+"chefTips":[
+"Use fresh vegetables for better taste.",
+"Add dressing just before serving."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"salad",
+"healthy",
+"mediterranean",
+"vegetarian",
+"fresh"
+]
+},
+
+{
+"name":"Matar Mushroom",
+"slug":"matar-mushroom",
+
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+
+"category":"North Indian",
+
+"difficulty":"Medium",
+
+"rating":4.6,
+
+"reviews":24,
+
+"time":"40 mins",
+
+"servings":4,
+
+"ingredients":[
+"Mushroom",
+"Green peas",
+"Onion",
+"Tomatoes",
+"Ginger garlic paste",
+"Indian spices",
+"Cream"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Masala",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Cook onion, tomato and spices to prepare gravy base.",
+"time":900
+},
+
+{
+"title":"Step 2 - Cook Mushroom",
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+"description":"Cook mushrooms with spices until soft.",
+"time":600
+},
+
+{
+"title":"Step 3 - Add Peas",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Add green peas and prepared gravy together.",
+"time":600
+},
+
+{
+"title":"Step 4 - Finish Dish",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Add cream and garnish with coriander.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"300 kcal",
+"protein":"12 g",
+"carbs":"25 g",
+"fat":"18 g"
+},
+
+"chefTips":[
+"Use fresh mushrooms for better texture.",
+"Do not overcook mushrooms."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"indian",
+"mushroom",
+"vegetarian",
+"curry",
+"north indian"
+]
+},
+
+{
+"name":"Chicken Parmesan",
+"slug":"chicken-parmesan",
+
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+
+"category":"Italian",
+
+"difficulty":"Medium",
+
+"rating":4.8,
+
+"reviews":36,
+
+"time":"50 mins",
+
+"servings":4,
+
+"ingredients":[
+"Chicken breast",
+"Breadcrumbs",
+"Parmesan cheese",
+"Tomato sauce",
+"Mozzarella cheese",
+"Egg",
+"Herbs"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Chicken",
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+"description":"Coat chicken with breadcrumbs and parmesan cheese.",
+"time":600
+},
+
+{
+"title":"Step 2 - Fry Chicken",
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+"description":"Cook coated chicken until crispy.",
+"time":900
+},
+
+{
+"title":"Step 3 - Add Sauce",
+"image":"https://images.unsplash.com/photo-1473093295043-cdd812d0e601",
+"description":"Add tomato sauce and mozzarella cheese over chicken.",
+"time":300
+},
+
+{
+"title":"Step 4 - Bake",
+"image":"https://images.unsplash.com/photo-1574894709920-11b28e7367e3",
+"description":"Bake until cheese melts completely.",
+"time":900
+}
+
+],
+
+"nutrition":{
+"calories":"580 kcal",
+"protein":"42 g",
+"carbs":"35 g",
+"fat":"25 g"
+},
+
+"chefTips":[
+"Use fresh mozzarella for better melting.",
+"Keep chicken thin for even cooking."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"italian",
+"chicken",
+"cheese",
+"baked",
+"dinner"
+]
+},
+
+{
+"name":"Korean Fried Chicken",
+"slug":"korean-fried-chicken",
+
+"image":"https://images.unsplash.com/photo-1562967914-608f82629710",
+
+"category":"Korean",
+
+"difficulty":"Medium",
+
+"rating":4.8,
+
+"reviews":45,
+
+"time":"50 mins",
+
+"servings":4,
+
+"ingredients":[
+"Chicken wings",
+"Corn flour",
+"Garlic",
+"Ginger",
+"Soy sauce",
+"Hot sauce",
+"Honey",
+"Sesame seeds"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Marinate Chicken",
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+"description":"Mix chicken wings with spices, garlic and ginger for marination.",
+"time":900
+},
+
+{
+"title":"Step 2 - Coat Chicken",
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+"description":"Coat chicken pieces with corn flour for crispy texture.",
+"time":300
+},
+
+{
+"title":"Step 3 - Fry Chicken",
+"image":"https://images.unsplash.com/photo-1562967914-608f82629710",
+"description":"Deep fry chicken until golden and crispy.",
+"time":900
+},
+
+{
+"title":"Step 4 - Add Korean Sauce",
+"image":"https://images.unsplash.com/photo-1562967914-608f82629710",
+"description":"Mix fried chicken with spicy sweet Korean sauce.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"520 kcal",
+"protein":"38 g",
+"carbs":"35 g",
+"fat":"28 g"
+},
+
+"chefTips":[
+"Double fry chicken for extra crispiness.",
+"Add sesame seeds before serving."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"korean",
+"chicken",
+"fried",
+"spicy",
+"street food"
+]
+},
+
+{
+"name":"Falafel Wrap",
+"slug":"falafel-wrap",
+
+"image":"https://images.unsplash.com/photo-1529006557810-274b9b2fc783",
+
+"category":"Middle Eastern",
+
+"difficulty":"Medium",
+
+"rating":4.6,
+
+"reviews":26,
+
+"time":"35 mins",
+
+"servings":4,
+
+"ingredients":[
+"Chickpeas",
+"Pita bread",
+"Onion",
+"Garlic",
+"Coriander",
+"Lettuce",
+"Yogurt sauce",
+"Spices"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Falafel Mixture",
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+"description":"Blend chickpeas with herbs, garlic and spices to make mixture.",
+"time":600
+},
+
+{
+"title":"Step 2 - Shape Falafel",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Make small balls from the prepared mixture.",
+"time":300
+},
+
+{
+"title":"Step 3 - Fry Falafel",
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+"description":"Fry falafel until crispy outside.",
+"time":600
+},
+
+{
+"title":"Step 4 - Prepare Wrap",
+"image":"https://images.unsplash.com/photo-1529006557810-274b9b2fc783",
+"description":"Add falafel, vegetables and sauce inside pita bread.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"380 kcal",
+"protein":"14 g",
+"carbs":"55 g",
+"fat":"12 g"
+},
+
+"chefTips":[
+"Keep chickpea mixture slightly dry.",
+"Serve with fresh garlic sauce."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"middle eastern",
+"falafel",
+"wrap",
+"vegetarian",
+"healthy"
+]
+},
+
+{
+"name":"Methi Malai Chicken",
+"slug":"methi-malai-chicken",
+
+"image":"https://images.unsplash.com/photo-1585937421612-70a008356fbe",
+
+"category":"North Indian",
+
+"difficulty":"Medium",
+
+"rating":4.7,
+
+"reviews":30,
+
+"time":"55 mins",
+
+"servings":4,
+
+"ingredients":[
+"Chicken",
+"Fresh fenugreek leaves",
+"Cream",
+"Yogurt",
+"Onion",
+"Cashews",
+"Indian spices",
+"Ginger garlic paste"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Marinate Chicken",
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+"description":"Mix chicken with yogurt and spices for marination.",
+"time":1200
+},
+
+{
+"title":"Step 2 - Prepare Gravy",
+"image":"https://images.unsplash.com/photo-1585937421612-70a008356fbe",
+"description":"Cook onion, cashews and spices to create creamy gravy.",
+"time":900
+},
+
+{
+"title":"Step 3 - Add Chicken",
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+"description":"Cook chicken with gravy until tender.",
+"time":1200
+},
+
+{
+"title":"Step 4 - Add Methi",
+"image":"https://images.unsplash.com/photo-1585937421612-70a008356fbe",
+"description":"Add fenugreek leaves and cream before serving.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"540 kcal",
+"protein":"36 g",
+"carbs":"18 g",
+"fat":"35 g"
+},
+
+"chefTips":[
+"Use fresh methi leaves for authentic flavour.",
+"Cook on low flame for creamy texture."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"indian",
+"chicken",
+"creamy",
+"north indian",
+"dinner"
+]
+},
+
+{
+"name":"Vegetable Quinoa Bowl",
+"slug":"vegetable-quinoa-bowl",
+
+"image":"https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+
+"category":"Healthy",
+
+"difficulty":"Easy",
+
+"rating":4.5,
+
+"reviews":18,
+
+"time":"30 mins",
+
+"servings":2,
+
+"ingredients":[
+"Quinoa",
+"Chickpeas",
+"Carrot",
+"Cucumber",
+"Avocado",
+"Corn",
+"Lemon dressing",
+"Olive oil"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Cook Quinoa",
+"image":"https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+"description":"Wash and cook quinoa until soft.",
+"time":900
+},
+
+{
+"title":"Step 2 - Prepare Vegetables",
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+"description":"Cut fresh vegetables and prepare toppings.",
+"time":300
+},
+
+{
+"title":"Step 3 - Prepare Bowl",
+"image":"https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+"description":"Arrange quinoa, vegetables and chickpeas in a bowl.",
+"time":300
+},
+
+{
+"title":"Step 4 - Add Dressing",
+"image":"https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+"description":"Add lemon olive oil dressing and serve fresh.",
+"time":120
+}
+
+],
+
+"nutrition":{
+"calories":"350 kcal",
+"protein":"15 g",
+"carbs":"50 g",
+"fat":"10 g"
+},
+
+"chefTips":[
+"Rinse quinoa before cooking to remove bitterness.",
+"Use fresh vegetables for better taste."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"healthy",
+"quinoa",
+"vegetarian",
+"salad",
+"fitness"
+]
+},
+
+{
+"name":"Hyderabadi Haleem",
+"slug":"hyderabadi-haleem",
+
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+
+"category":"Indian",
+
+"difficulty":"Hard",
+
+"rating":4.8,
+
+"reviews":40,
+
+"time":"120 mins",
+
+"servings":5,
+
+"ingredients":[
+"Mutton",
+"Wheat",
+"Lentils",
+"Barley",
+"Ginger garlic paste",
+"Spices",
+"Onion",
+"Coriander"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Soak Grains",
+"image":"https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7",
+"description":"Soak wheat, lentils and barley before cooking.",
+"time":1800
+},
+
+{
+"title":"Step 2 - Cook Meat",
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+"description":"Cook mutton with spices until very tender.",
+"time":3600
+},
+
+{
+"title":"Step 3 - Combine Ingredients",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Mix grains and meat together and cook slowly.",
+"time":1800
+},
+
+{
+"title":"Step 4 - Garnish",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Add fried onions and coriander before serving.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"650 kcal",
+"protein":"45 g",
+"carbs":"60 g",
+"fat":"25 g"
+},
+
+"chefTips":[
+"Slow cooking gives authentic haleem texture.",
+"Use fried onions for better flavour."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"indian",
+"hyderabadi",
+"mutton",
+"traditional",
+"slow cooked"
+]
+},
+
+{
+"name":"Vegetable Spring Rolls",
+"slug":"vegetable-spring-rolls",
+
+"image":"https://images.unsplash.com/photo-1547592180-85f173990554",
+
+"category":"Chinese",
+
+"difficulty":"Medium",
+
+"rating":4.6,
+
+"reviews":30,
+
+"time":"35 mins",
+
+"servings":4,
+
+"ingredients":[
+"Spring roll sheets",
+"Cabbage",
+"Carrot",
+"Capsicum",
+"Garlic",
+"Soy sauce",
+"Pepper",
+"Oil"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Filling",
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+"description":"Stir fry vegetables with garlic and sauces.",
+"time":600
+},
+
+{
+"title":"Step 2 - Wrap Rolls",
+"image":"https://images.unsplash.com/photo-1626777552726-4a6b54c97e46",
+"description":"Place filling inside sheets and roll tightly.",
+"time":600
+},
+
+{
+"title":"Step 3 - Fry Spring Rolls",
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+"description":"Deep fry until golden and crispy.",
+"time":600
+},
+
+{
+"title":"Step 4 - Serve",
+"image":"https://images.unsplash.com/photo-1547592180-85f173990554",
+"description":"Serve hot with sweet chilli sauce.",
+"time":180
+}
+
+],
+
+"nutrition":{
+"calories":"300 kcal",
+"protein":"8 g",
+"carbs":"45 g",
+"fat":"12 g"
+},
+
+"chefTips":[
+"Keep filling dry to avoid soggy rolls.",
+"Serve immediately for crispiness."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"chinese",
+"spring rolls",
+"snacks",
+"vegetarian",
+"street food"
+]
+},
+
+{
+"name":"Chicken Tandoori Wrap",
+"slug":"chicken-tandoori-wrap",
+
+"image":"https://images.unsplash.com/photo-1529006557810-274b9b2fc783",
+
+"category":"Indian Fusion",
+
+"difficulty":"Medium",
+
+"rating":4.7,
+
+"reviews":28,
+
+"time":"40 mins",
+
+"servings":3,
+
+"ingredients":[
+"Chicken tikka pieces",
+"Roti or tortilla",
+"Onion",
+"Lettuce",
+"Mint chutney",
+"Yogurt",
+"Spices",
+"Capsicum"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Chicken Filling",
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+"description":"Cook marinated chicken pieces with Indian spices.",
+"time":900
+},
+
+{
+"title":"Step 2 - Prepare Wrap Base",
+"image":"https://images.unsplash.com/photo-1509440159596-0249088772ff",
+"description":"Warm roti or tortilla before assembling the wrap.",
+"time":180
+},
+
+{
+"title":"Step 3 - Assemble Wrap",
+"image":"https://images.unsplash.com/photo-1529006557810-274b9b2fc783",
+"description":"Add chicken, vegetables and mint chutney inside the wrap.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"450 kcal",
+"protein":"32 g",
+"carbs":"45 g",
+"fat":"16 g"
+},
+
+"chefTips":[
+"Use smoky grilled chicken for better taste.",
+"Add fresh mint chutney before serving."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"indian fusion",
+"wrap",
+"chicken",
+"street food",
+"quick meal"
+]
+},
+
+{
+"name":"Vegetable Thai Red Curry",
+"slug":"vegetable-thai-red-curry",
+
+"image":"https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd",
+
+"category":"Thai",
+
+"difficulty":"Medium",
+
+"rating":4.6,
+
+"reviews":22,
+
+"time":"35 mins",
+
+"servings":4,
+
+"ingredients":[
+"Coconut milk",
+"Red curry paste",
+"Carrot",
+"Broccoli",
+"Bell peppers",
+"Beans",
+"Basil leaves",
+"Thai spices"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Curry Sauce",
+"image":"https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd",
+"description":"Cook red curry paste with coconut milk and spices.",
+"time":600
+},
+
+{
+"title":"Step 2 - Cook Vegetables",
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+"description":"Add vegetables and cook until slightly tender.",
+"time":900
+},
+
+{
+"title":"Step 3 - Finish Curry",
+"image":"https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd",
+"description":"Add basil leaves and serve with rice.",
+"time":300
+}
+
+],
+
+"nutrition":{
+"calories":"380 kcal",
+"protein":"12 g",
+"carbs":"45 g",
+"fat":"18 g"
+},
+
+"chefTips":[
+"Use fresh coconut milk for richer flavour.",
+"Keep vegetables slightly crunchy."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"thai",
+"curry",
+"vegetarian",
+"asian",
+"healthy"
+]
+},
+
+{
+"name":"Chicken Stroganoff",
+"slug":"chicken-stroganoff",
+
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+
+"category":"European",
+
+"difficulty":"Medium",
+
+"rating":4.7,
+
+"reviews":26,
+
+"time":"45 mins",
+
+"servings":4,
+
+"ingredients":[
+"Chicken breast",
+"Mushroom",
+"Onion",
+"Cream",
+"Butter",
+"Garlic",
+"Pepper",
+"Herbs"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Cook Chicken",
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+"description":"Cook chicken pieces with seasoning until golden.",
+"time":900
+},
+
+{
+"title":"Step 2 - Prepare Sauce",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Cook mushrooms, onion and garlic with butter and cream.",
+"time":900
+},
+
+{
+"title":"Step 3 - Combine",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Mix chicken with creamy mushroom sauce.",
+"time":600
+}
+
+],
+
+"nutrition":{
+"calories":"520 kcal",
+"protein":"38 g",
+"carbs":"20 g",
+"fat":"30 g"
+},
+
+"chefTips":[
+"Do not overcook chicken.",
+"Use fresh mushrooms for better flavour."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"european",
+"chicken",
+"creamy",
+"dinner",
+"international"
+]
+},
+
+{
+"name":"Stuffed Bell Peppers",
+"slug":"stuffed-bell-peppers",
+
+"image":"https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+
+"category":"Mediterranean",
+
+"difficulty":"Medium",
+
+"rating":4.5,
+
+"reviews":20,
+
+"time":"50 mins",
+
+"servings":4,
+
+"ingredients":[
+"Bell peppers",
+"Rice",
+"Corn",
+"Beans",
+"Tomatoes",
+"Cheese",
+"Herbs",
+"Olive oil"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Filling",
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+"description":"Mix cooked rice with vegetables, herbs and seasoning.",
+"time":600
+},
+
+{
+"title":"Step 2 - Fill Peppers",
+"image":"https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+"description":"Remove pepper seeds and fill them with prepared mixture.",
+"time":300
+},
+
+{
+"title":"Step 3 - Bake",
+"image":"https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+"description":"Bake stuffed peppers until soft and cheese melts.",
+"time":1800
+}
+
+],
+
+"nutrition":{
+"calories":"330 kcal",
+"protein":"12 g",
+"carbs":"45 g",
+"fat":"12 g"
+},
+
+"chefTips":[
+"Choose fresh colourful peppers.",
+"Do not overbake peppers."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"mediterranean",
+"healthy",
+"vegetarian",
+"baked",
+"international"
+]
+},
+
+{
+"name":"Chicken Satay",
+"slug":"chicken-satay",
+
+"image":"https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba",
+
+"category":"Southeast Asian",
+
+"difficulty":"Medium",
+
+"rating":4.7,
+
+"reviews":32,
+
+"time":"45 mins",
+
+"servings":4,
+
+"ingredients":[
+"Chicken strips",
+"Peanut sauce",
+"Coconut milk",
+"Garlic",
+"Ginger",
+"Soy sauce",
+"Lemon juice",
+"Spices"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Marinate Chicken",
+"image":"https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+"description":"Mix chicken with spices, garlic, ginger and soy sauce. Keep aside for marination.",
+"time":1200
+},
+
+{
+"title":"Step 2 - Prepare Peanut Sauce",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Cook peanut sauce with coconut milk and spices.",
+"time":600
+},
+
+{
+"title":"Step 3 - Grill Chicken",
+"image":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0",
+"description":"Place chicken on skewers and grill until cooked.",
+"time":900
+},
+
+{
+"title":"Step 4 - Serve",
+"image":"https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba",
+"description":"Serve grilled chicken with peanut sauce.",
+"time":180
+}
+
+],
+
+"nutrition":{
+"calories":"480 kcal",
+"protein":"35 g",
+"carbs":"18 g",
+"fat":"28 g"
+},
+
+"chefTips":[
+"Marinate chicken longer for better flavour.",
+"Grill on medium heat to keep chicken juicy."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Non-Veg",
+
+"tags":[
+"asian",
+"chicken",
+"grilled",
+"starter",
+"street food"
+]
+},
+
+{
+"name":"Ratatouille",
+"slug":"ratatouille",
+
+"image":"https://images.unsplash.com/photo-1572453800999-e8d2d1589eb4",
+
+"category":"French",
+
+"difficulty":"Medium",
+
+"rating":4.6,
+
+"reviews":25,
+
+"time":"50 mins",
+
+"servings":4,
+
+"ingredients":[
+"Eggplant",
+"Zucchini",
+"Tomatoes",
+"Bell peppers",
+"Onion",
+"Garlic",
+"Olive oil",
+"Herbs"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Cut Vegetables",
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+"description":"Wash and slice vegetables into equal pieces.",
+"time":300
+},
+
+{
+"title":"Step 2 - Prepare Sauce",
+"image":"https://images.unsplash.com/photo-1601050690597-df0568f70950",
+"description":"Cook tomatoes, onion and garlic to prepare sauce.",
+"time":900
+},
+
+{
+"title":"Step 3 - Arrange Vegetables",
+"image":"https://images.unsplash.com/photo-1572453800999-e8d2d1589eb4",
+"description":"Arrange sliced vegetables over the sauce.",
+"time":300
+},
+
+{
+"title":"Step 4 - Bake",
+"image":"https://images.unsplash.com/photo-1572453800999-e8d2d1589eb4",
+"description":"Bake until vegetables become soft and flavours combine.",
+"time":1800
+}
+
+],
+
+"nutrition":{
+"calories":"220 kcal",
+"protein":"6 g",
+"carbs":"30 g",
+"fat":"10 g"
+},
+
+"chefTips":[
+"Use fresh herbs for authentic flavour.",
+"Slice vegetables evenly for better cooking."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"french",
+"vegetarian",
+"healthy",
+"baked",
+"vegetables"
+]
+},
+
+{
+"name":"Mediterranean Chickpea Salad",
+"slug":"mediterranean-chickpea-salad",
+
+"image":"https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+
+"category":"Mediterranean",
+
+"difficulty":"Easy",
+
+"rating":4.5,
+
+"reviews":20,
+
+"time":"20 mins",
+
+"servings":3,
+
+"ingredients":[
+"Chickpeas",
+"Cucumber",
+"Tomatoes",
+"Onion",
+"Olives",
+"Feta cheese",
+"Lemon juice",
+"Olive oil"
+],
+
+"steps":[
+
+{
+"title":"Step 1 - Prepare Vegetables",
+"image":"https://images.unsplash.com/photo-1542838132-92c53300491e",
+"description":"Chop cucumber, tomatoes and onions.",
+"time":300
+},
+
+{
+"title":"Step 2 - Mix Ingredients",
+"image":"https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+"description":"Combine chickpeas with vegetables and cheese.",
+"time":300
+},
+
+{
+"title":"Step 3 - Add Dressing",
+"image":"https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+"description":"Add lemon and olive oil dressing before serving.",
+"time":120
+}
+
+],
+
+"nutrition":{
+"calories":"280 kcal",
+"protein":"12 g",
+"carbs":"35 g",
+"fat":"10 g"
+},
+
+"chefTips":[
+"Use chilled chickpeas for better taste.",
+"Add dressing just before serving."
+],
+
+"ownerId":"6a6473441f3a823080fdf58b",
+
+"foodType":"Veg",
+
+"tags":[
+"mediterranean",
+"salad",
+"healthy",
+"vegetarian",
+"chickpeas"
+]
+}
+
+
+
+]
+

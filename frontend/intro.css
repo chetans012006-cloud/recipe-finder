@@ -1,0 +1,126 @@
+#introAnimation{
+
+    position:fixed;
+    top:0;
+    left:0;
+
+    width:100vw;
+    height:100vh;
+
+    background:#111;
+
+    z-index:9999;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    transform:scale(1);
+    opacity:1;
+
+    transition:
+    transform 1s ease,
+    opacity 1s ease;
+
+}
+
+
+#container{
+
+    width:100%;
+    height:100%;
+
+}
+body.intro-active nav,
+body.intro-active .hero,
+body.intro-active .recipe-container,
+body.intro-active footer{
+
+    visibility:hidden;
+
+}
+#mainWebsite{
+
+    display:none;
+
+}
+
+#introAnimation{
+
+    opacity:1;
+
+}
+#logoIcon{
+
+    position:absolute;
+
+    top:35%;
+
+    font-size:70px;
+
+    animation:
+    logoPop 1s ease,
+    logoGlow 2s infinite alternate;
+
+}
+
+
+@keyframes logoPop{
+
+    from{
+
+        transform:scale(0);
+
+        opacity:0;
+
+    }
+
+    to{
+
+        transform:scale(1);
+
+        opacity:1;
+
+    }
+
+}
+@keyframes logoGlow{
+
+
+    from{
+
+        filter:drop-shadow(0 0 5px rgba(255,200,80,0.4));
+
+    }
+
+
+    to{
+
+        filter:drop-shadow(0 0 25px rgba(255,200,80,1));
+
+    }
+
+
+}
+#mainWebsite{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
+
+}
+
+#mainWebsite {
+    display: none;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+#logoIcon {
+    position: fixed;
+    z-index: 9999;
+}

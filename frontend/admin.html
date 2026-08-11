@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Admin Dashboard</title>
+
+<link rel="stylesheet" href="admin.css">
+
+</head>
+
+
+<body>
+
+
+<h1>
+👨‍🍳 Recipe Finder Admin Dashboard
+</h1>
+
+
+<div id="adminStats"></div>
+
+
+<hr>
+
+
+<h1>
+👥 User Management
+</h1>
+
+
+<div id="adminUsers"></div>
+
+
+<hr>
+
+
+<button onclick="showAddRecipeForm()">
+➕ Add New Recipe
+</button>
+
+
+<div id="recipeForm"></div>
+
+
+<div id="editRecipeForm"></div>
+
+
+<hr>
+
+
+<h1>
+🍽 Recipe Management
+</h1>
+
+<input
+    type="text"
+    id="recipeSearch"
+    placeholder="🔍 Search recipe..."
+    oninput="searchAdminRecipes()"
+>
+
+<br><br>
+
+<div id="adminRecipes"></div>
+
+
+
+
+<hr>
+
+
+<h1>
+🚨 Reported Comments
+</h1>
+
+
+<div id="reportedComments"></div>
+
+
+
+<script src="admin.js"></script>
+
+
+</body>
+
+</html>

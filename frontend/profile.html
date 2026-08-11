@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Profile</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<nav>
+
+<h2>
+🍽 Recipe Finder
+</h2>
+
+
+<div id="userSection">
+
+</div>
+
+
+</nav>
+
+
+
+<div class="profile-container">
+
+
+<img 
+id="profileImage"
+width="150"
+height="150"
+class="profile-big-image"
+>
+
+
+<h1 id="profileName"></h1>
+
+
+<p id="profileEmail"></p>
+
+
+<p id="profileDate"></p>
+
+
+
+<div class="profile-actions">
+
+<button onclick="logout()">
+
+🚪 Logout
+
+</button>
+
+</div>
+
+<hr>
+<div class="profile-section">
+
+<h2>✏️ Edit Profile</h2>
+
+
+<label>
+Username:
+</label>
+
+<br>
+
+<input 
+id="editUsername"
+type="text"
+>
+
+
+<br><br>
+
+
+<label>
+Profile Picture:
+</label>
+
+<br>
+
+<input
+id="profileUpload"
+type="file"
+accept="image/*"
+>
+
+
+<br><br>
+
+
+<img 
+id="previewImage"
+width="100"
+height="100"
+class="preview-profile"
+style="display:none;"
+>
+
+
+<br><br>
+
+
+<button onclick="updateProfile()">
+
+Save Changes
+
+</button>
+
+</div>
+<hr>
+
+
+
+<h2>
+❤️ Saved Recipes
+</h2>
+
+
+<div id="savedRecipes">
+
+<p>
+No saved recipes yet
+</p>
+
+</div>
+
+
+
+<h2>
+⭐ My Ratings
+</h2>
+
+
+<div id="myRatings">
+
+<p>
+No ratings yet
+</p>
+
+</div>
+
+
+
+<h2>
+💬 My Reviews
+</h2>
+
+
+<div id="myReviews">
+
+<p>
+No reviews yet
+</p>
+
+</div>
+
+
+
+</div>
+
+
+
+<script>
+
+if(localStorage.getItem("darkMode") === "enabled"){
+
+    document.body.classList.add("dark");
+
+}
+
+</script>
+<script src="recipes-data.js"></script>
+
+<script src="profile.js"></script>
+
+
+<script>
+
+
+let profileUser =
+JSON.parse(localStorage.getItem("currentUser"));
+
+
+
+if(!profileUser){
+
+window.location.href="login.html";
+
+}
+
+
+
+document.getElementById("profileImage").src =
+user.profilePic;
+
+
+
+document.getElementById("profileName").innerHTML =
+user.username;
+
+
+
+document.getElementById("profileEmail").innerHTML =
+user.email;
+
+
+
+document.getElementById("profileDate").innerHTML =
+"User ID: " + user.id;
+
+
+
+
+function logout(){
+
+localStorage.removeItem("currentUser");
+
+window.location.href="index.html";
+
+}
+
+document.getElementById("editUsername").value =
+profileUser.username;
+
+
+
+
+
+
+async function updateProfile(){
+
+
+let username =
+document.getElementById("editUsername").value;
+
+
+let profilePic =
+profileUser.profilePic;
+
+
+if(uploadedImage){
+
+
+    let formData = new FormData();
+
+
+    formData.append(
+        "image",
+        uploadedImage
+    );
+
+
+    let uploadResponse =
+    await fetch(
+
+        "http://localhost:5000/api/upload",
+
+        {
+
+            method:"POST",
+
+            body:formData
+
+        }
+
+    );
+
+
+    let uploadData =
+    await uploadResponse.json();
+
+
+    profilePic =
+    uploadData.imageUrl;
+
+
+}
+
+
+
+let response = await fetch(
+
+"http://localhost:5000/api/users/" + profileUser.id,
+
+{
+
+method:"PUT",
+
+headers:{
+"Content-Type":"application/json"
+},
+
+body:JSON.stringify({
+
+username,
+profilePic
+
+})
+
+}
+
+);
+
+
+
+let data = await response.json();
+
+
+
+if(response.ok){
+
+
+alert("Profile updated successfully");
+
+
+// update localStorage
+
+localStorage.setItem(
+"currentUser",
+JSON.stringify({
+
+...profileUser,
+
+username,
+profilePic
+
+})
+);
+
+
+
+location.reload();
+
+
+}
+
+else{
+
+alert(data.error);
+
+}
+
+
+}
+</script>
+
+
+</body>
+
+</html>
+
