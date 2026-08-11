@@ -1,4 +1,4 @@
-alert("JavaScript is working!");
+
 
 let recipes = [];
 let currentUser =
