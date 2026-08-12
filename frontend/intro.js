@@ -337,56 +337,77 @@ ctx.globalAlpha = 1;
 
 startAnimation();
 let startTouchX = 0;
+let startTouchY = 0;
 
+window.addEventListener("pointerdown", (e) => {
 
-window.addEventListener(
-"pointerdown",
-(e)=>{
-
-
-    if(!transitionStarted){
+    if (!transitionStarted) {
 
         introSound.volume = 0.3;
-
         introSound.currentTime = 0;
 
-        introSound.play()
-        .catch(()=>{});
-
+        introSound.play().catch(() => {});
 
         transitionStarted = true;
-
     }
 
-
     startTouchX = e.clientX;
+    startTouchY = e.clientY;
 
+}, { passive: true });
+
+
+window.addEventListener("pointerup", (e) => {
+
+    if (transitionStarted === false) {
+        return;
+    }
+
+    let distanceX = e.clientX - startTouchX;
+    let distanceY = e.clientY - startTouchY;
+
+    // Make sure it is mainly a horizontal swipe
+    if (
+        Math.abs(distanceX) > 80 &&
+        Math.abs(distanceX) > Math.abs(distanceY)
+    ) {
+
+        swipeDirection =
+            distanceX > 0 ? 1 : -1;
+
+        explodeLetters();
+    }
 
 });
 
 
-    
+window.addEventListener("pointerdown", function(e) {
+
+    if (e.pointerType === "touch") return;
+
+    if (exploded) return;
+
+    startTouchX = e.clientX;
+
+});
 
 
+window.addEventListener("pointerup", function(e) {
 
+    if (e.pointerType === "touch") return;
 
-
-window.addEventListener(
-"pointerup",
-(e)=>{
-
+    if (exploded) return;
 
     let distance =
-    e.clientX - startTouchX;
-    swipeDirection =
-distance > 0 ? 1 : -1;
+        e.clientX - startTouchX;
 
+    if (Math.abs(distance) > 100) {
 
-    if(Math.abs(distance) > 100){
+        swipeDirection =
+            distance > 0 ? 1 : -1;
 
         explodeLetters();
 
     }
-
 
 });

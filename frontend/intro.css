@@ -124,3 +124,11 @@ body.intro-active footer{
     position: fixed;
     z-index: 9999;
 }
+
+#container {
+    touch-action: none;
+}
+#introAnimation {
+    touch-action: none;
+    overflow: hidden;
+}
