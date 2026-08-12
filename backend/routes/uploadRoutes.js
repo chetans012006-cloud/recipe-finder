@@ -60,7 +60,7 @@ router.post("/", upload.single("image"), (req, res) => {
         }
 
         const imageUrl =
-            `${req.protocol}://${req.get("host")}/uploads/${req.file.filename}`;
+    `https://recipe-finder-gdak.onrender.com/uploads/${req.file.filename}`;
 
         res.json({
             imageUrl: imageUrl
