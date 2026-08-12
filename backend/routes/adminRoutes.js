@@ -147,10 +147,8 @@ router.post(
                             steps[stepIndex]
                         ){
 
-                            steps[stepIndex].image =
-                                "http://localhost:5000/uploads/recipes/"
-                                +
-                                file.filename;
+                           steps[stepIndex].image =
+`${req.protocol}://${req.get("host")}/uploads/recipes/${file.filename}`;
 
                         }
 
@@ -172,9 +170,7 @@ router.post(
             ){
 
                 recipeImage =
-                    "http://localhost:5000/uploads/recipes/"
-                    +
-                    req.files.image[0].filename;
+`${req.protocol}://${req.get("host")}/uploads/recipes/${req.files.image[0].filename}`;
 
             }
 
@@ -335,9 +331,7 @@ req.body.chefTips
             ){
 
                 recipe.image =
-                    "http://localhost:5000/uploads/recipes/"
-                    +
-                    req.files.image[0].filename;
+`${req.protocol}://${req.get("host")}/uploads/recipes/${req.files.image[0].filename}`;
 
             }
 
@@ -397,9 +391,7 @@ req.body.chefTips
                         ){
 
                             recipe.steps[stepIndex].image =
-                                "http://localhost:5000/uploads/recipes/"
-                                +
-                                file.filename;
+`${req.protocol}://${req.get("host")}/uploads/recipes/${file.filename}`;
 
                         }
 
