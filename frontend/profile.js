@@ -1,88 +1,87 @@
-let user =
-JSON.parse(localStorage.getItem("currentUser"));
+function loadUserNavbar(){
+
+    let user =
+        JSON.parse(
+            localStorage.getItem("currentUser")
+        );
+
+    let userSection =
+        document.getElementById("userSection");
 
 
-let userSection =
-document.getElementById("userSection");
+    if(!user){
+
+        userSection.innerHTML = `
+
+            <a href="login.html">
+                Sign In
+            </a>
+
+            <a href="signup.html">
+                Sign Up
+            </a>
+
+        `;
+
+        return;
+
+    }
 
 
+    userSection.innerHTML = `
 
-if(user){
+        <div class="profile-menu">
 
+            <img 
+                src="${user.profilePic || 'images/default-profile.png'}"
+                width="40"
+                height="40"
+                class="nav-profile-img"
+            >
 
-userSection.innerHTML = `
+            <b>${user.username}</b>
 
-<div class="profile-menu">
+            <button onclick="toggleProfileMenu()">
+                ▼
+            </button>
 
+            <div id="profileDropdown" class="profile-dropdown">
 
-<img 
-src="${user.profilePic || 'images/default-profile.png'}"
-width="40"
-height="40"
-class="nav-profile-img"
->
+                <a href="profile.html">
+                    👤 Profile
+                </a>
 
+                <a href="favorites.html">
+                    ❤️ Saved Recipes
+                </a>
 
-<b>${user.username}</b>
+                <a href="myRatings.html">
+                    ⭐ My Ratings
+                </a>
 
+                <a href="myReviews.html">
+                    💬 My Reviews
+                </a>
 
-<button onclick="toggleProfileMenu()">
-▼
-</button>
+                <button onclick="logout()">
+                    🚪 Logout
+                </button>
 
+            </div>
 
-<div id="profileDropdown" class="profile-dropdown">
+        </div>
 
-
-<a href="profile.html">
-👤 Profile
-</a>
-
-
-<a href="favorites.html">
-❤️ Saved Recipes
-</a>
-
-<a href="myRatings.html">
-⭐ My Ratings
-</a>
-
-<a href="myReviews.html">
-💬 My Reviews
-</a>
-
-
-<button onclick="logout()">
-🚪 Logout
-</button>
-
-
-</div>
-
-
-</div>
-
-`;
-
-}
-else{
-
-
-userSection.innerHTML = `
-
-<a href="login.html">
-Sign In
-</a>
-
-
-<a href="signup.html">
-Sign Up
-</a>
-
-`;
+    `;
 
 }
 
+
+loadUserNavbar();
+window.addEventListener("pageshow", function(){
+
+    loadUserNavbar();
+
+});
 
 
 function logout(){
@@ -214,50 +213,46 @@ let allRecipes = await recipeResponse.json();
 
 favorites.forEach(favorite => {
 
+    let recipe = allRecipes.find(
+        r => String(r._id) === String(favorite.recipeId)
+    );
 
-let recipe = allRecipes.find(
-r => String(r._id) === String(favorite.recipeId)
-);
+    console.log("PROFILE FAVORITE:", favorite);
+    console.log("PROFILE RECIPE OBJECT:", recipe);
 
-console.log("PROFILE FAVORITE:", favorite);
-console.log("PROFILE RECIPE OBJECT:", recipe);
+    if(recipe){
 
-if(recipe){
+        container.innerHTML +=
 
+        `
+        <div class="saved-card">
 
-container.innerHTML +=
+            <img
+            src="${recipe.image}"
+            width="120"
+            height="100"
+            >
 
-`
+            <h3>
+            ${recipe.name}
+            </h3>
 
-<div class="saved-card">
+            <button onclick="openRecipe('${recipe._id}')">
+            View Recipe
+            </button>
 
+        </div>
+        `;
 
-<img
-src="${recipe.image}"
-width="120"
-height="100"
->
+    }
+    else {
 
+        console.log(
+            "⚠️ Saved recipe no longer exists:",
+            favorite.recipeId
+        );
 
-<h3>
-${recipe.name}
-</h3>
-
-
-<button onclick="openRecipe('${recipe._id || recipe.id}')">
-
-View Recipe
-
-</button>
-
-
-</div>
-
-`;
-
-}
-
-
+    }
 
 });
 

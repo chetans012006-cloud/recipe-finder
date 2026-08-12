@@ -1,5 +1,6 @@
 
 const dns = require("dns");
+const path = require("path");
 
 dns.setServers(["8.8.8.8"]);
 const express = require("express");
@@ -101,23 +102,37 @@ app.get("/", (req, res) => {
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, "0.0.0.0", () => {
-    console.log(`Server running on port ${PORT}`);
-});
+// Uploads
 
-const path = require("path");
 app.use(
-"/uploads",
-express.static(
-path.join(__dirname,"uploads")
-)
+    "/uploads",
+    express.static(
+        path.join(__dirname, "uploads")
+    )
+);
+
+const uploadRoutes =
+    require("./routes/uploadRoutes");
+
+app.use(
+    "/api/upload",
+    uploadRoutes
 );
 
 
-const uploadRoutes =
-require("./routes/uploadRoutes");
+// Start Server
 
-app.use(
-"/api/upload",
-uploadRoutes
+const PORT =
+    process.env.PORT || 5000;
+
+app.listen(
+    PORT,
+    "0.0.0.0",
+    () => {
+
+        console.log(
+            `Server running on port ${PORT}`
+        );
+
+    }
 );

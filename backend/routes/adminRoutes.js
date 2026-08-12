@@ -170,7 +170,7 @@ router.post(
             ){
 
                 recipeImage =
-`${req.protocol}://${req.get("host")}/uploads/recipes/${req.files.image[0].filename}`;
+                 `https://${req.get("host")}/uploads/recipes/${req.files.image[0].filename}`;
 
             }
 
@@ -391,7 +391,7 @@ req.body.chefTips
                         ){
 
                             recipe.steps[stepIndex].image =
-`${req.protocol}://${req.get("host")}/uploads/recipes/${file.filename}`;
+                            `https://${req.get("host")}/uploads/recipes/${file.filename}`;
 
                         }
 
