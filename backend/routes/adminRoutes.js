@@ -1,6 +1,34 @@
 const express = require("express");
 const upload = require("../middleware/recipeUpload");
+const cloudinary = require("../config/cloudinary");
 const router = express.Router();
+function uploadToCloudinary(fileBuffer, folder) {
+
+    return new Promise((resolve, reject) => {
+
+        const stream =
+            cloudinary.uploader.upload_stream(
+                {
+                    folder: folder
+                },
+
+                (error, result) => {
+
+                    if (error) {
+                        reject(error);
+                    }
+                    else {
+                        resolve(result);
+                    }
+
+                }
+            );
+
+        stream.end(fileBuffer);
+
+    });
+
+}
 router.get("/test",(req,res)=>{
 
     console.log("🔥 ADMIN TEST HIT");
@@ -121,58 +149,76 @@ router.post(
 
             // Step images
 
-            if(
-                req.files &&
-                req.files.stepImages
-            ){
+           // Step images
 
-                let stepImages =
-                    req.files.stepImages;
+if(
+    req.files &&
+    req.files.stepImages
+){
 
+    let stepImages =
+        req.files.stepImages;
 
-                let indexes =
-                    JSON.parse(
-                        req.body.stepImageIndexes || "[]"
-                    );
-
-
-                stepImages.forEach(
-                    (file,index)=>{
-
-                        let stepIndex =
-                            indexes[index];
+    let indexes =
+        JSON.parse(
+            req.body.stepImageIndexes || "[]"
+        );
 
 
-                        if(
-                            steps[stepIndex]
-                        ){
+    for(
+        let index = 0;
+        index < stepImages.length;
+        index++
+    ){
 
-                           steps[stepIndex].image =
-`${req.protocol}://${req.get("host")}/uploads/recipes/${file.filename}`;
+        let file =
+            stepImages[index];
 
-                        }
+        let stepIndex =
+            indexes[index];
 
-                    }
+
+        if(steps[stepIndex]){
+
+            let result =
+                await uploadToCloudinary(
+                    file.buffer,
+                    "recipe-finder/steps"
                 );
 
-            }
+
+            steps[stepIndex].image =
+                result.secure_url;
+
+        }
+
+    }
+
+}
 
 
-            // Main recipe image
+// Main recipe image
 
-            let recipeImage = "";
+let recipeImage = "";
 
 
-            if(
-                req.files &&
-                req.files.image &&
-                req.files.image.length > 0
-            ){
+if(
+    req.files &&
+    req.files.image &&
+    req.files.image.length > 0
+){
 
-                recipeImage =
-                 `https://${req.get("host")}/uploads/recipes/${req.files.image[0].filename}`;
+    let result =
+        await uploadToCloudinary(
+            req.files.image[0].buffer,
+            "recipe-finder/recipes"
+        );
 
-            }
+
+    recipeImage =
+        result.secure_url;
+
+}
 
 
             // Create recipe
@@ -324,17 +370,25 @@ req.body.chefTips
 
             // Recipe main image
 
-            if(
-                req.files &&
-                req.files.image &&
-                req.files.image.length > 0
-            ){
+            // Recipe main image
 
-                recipe.image =
-`${req.protocol}://${req.get("host")}/uploads/recipes/${req.files.image[0].filename}`;
+if(
+    req.files &&
+    req.files.image &&
+    req.files.image.length > 0
+){
 
-            }
+    let result =
+        await uploadToCloudinary(
+            req.files.image[0].buffer,
+            "recipe-finder/recipes"
+        );
 
+
+    recipe.image =
+        result.secure_url;
+
+}
 
             // Step descriptions
 
@@ -364,41 +418,54 @@ req.body.chefTips
 
             // Step images
 
-            if(
-                req.files &&
-                req.files.stepImages
-            ){
+            // Step images
 
-                let stepImages =
-                    req.files.stepImages;
+if(
+    req.files &&
+    req.files.stepImages
+){
 
+    let stepImages =
+        req.files.stepImages;
 
-                let indexes =
-                    JSON.parse(
-                        req.body.stepImageIndexes || "[]"
-                    );
-
-
-                stepImages.forEach(
-                    (file,index)=>{
-
-                        let stepIndex =
-                            indexes[index];
+    let indexes =
+        JSON.parse(
+            req.body.stepImageIndexes || "[]"
+        );
 
 
-                        if(
-                            recipe.steps[stepIndex]
-                        ){
+    for(
+        let index = 0;
+        index < stepImages.length;
+        index++
+    ){
 
-                            recipe.steps[stepIndex].image =
-                            `https://${req.get("host")}/uploads/recipes/${file.filename}`;
+        let file =
+            stepImages[index];
 
-                        }
+        let stepIndex =
+            indexes[index];
 
-                    }
+
+        if(
+            recipe.steps[stepIndex]
+        ){
+
+            let result =
+                await uploadToCloudinary(
+                    file.buffer,
+                    "recipe-finder/steps"
                 );
 
-            }
+
+            recipe.steps[stepIndex].image =
+                result.secure_url;
+
+        }
+
+    }
+
+}
 
 
             await recipe.save();

@@ -1,3 +1,8 @@
+let user =
+    JSON.parse(
+        localStorage.getItem("currentUser")
+    );
+
 function loadUserNavbar(){
 
     let user =

@@ -1,12 +1,14 @@
-
+require("dotenv").config();
+const cloudinary = require("./config/cloudinary");
 const dns = require("dns");
+
 const path = require("path");
 
 dns.setServers(["8.8.8.8"]);
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
-require("dotenv").config();
+
 
 console.log(process.env.MONGO_URI);
 
@@ -90,7 +92,16 @@ mongoose.connect(process.env.MONGO_URI)
     console.log("MongoDB Connection Error:", error);
 });
 
-
+cloudinary.api.ping()
+    .then(result => {
+        console.log("☁️ Cloudinary connected:", result.status);
+    })
+    .catch(error => {
+        console.log(
+            "❌ Cloudinary connection error:",
+            error.message
+        );
+    });
 // Test Route
 
 app.get("/", (req, res) => {
@@ -100,7 +111,7 @@ app.get("/", (req, res) => {
 
 // Start Server
 
-const PORT = process.env.PORT || 5000;
+
 
 // Uploads
 

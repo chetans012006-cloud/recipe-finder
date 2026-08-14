@@ -2,48 +2,16 @@ const express = require("express");
 const router = express.Router();
 
 const multer = require("multer");
-const path = require("path");
-const fs = require("fs");
+const cloudinary = require("../config/cloudinary");
 
-
-// Upload folder
-const uploadFolder = path.join(__dirname, "../uploads");
-
-// Create uploads folder if it does not exist
-if (!fs.existsSync(uploadFolder)) {
-    fs.mkdirSync(uploadFolder, { recursive: true });
-}
-
-
-// Multer storage
-const storage = multer.diskStorage({
-
-    destination: function(req, file, cb) {
-
-        cb(null, uploadFolder);
-
-    },
-
-    filename: function(req, file, cb) {
-
-        const uniqueName =
-            Date.now() +
-            path.extname(file.originalname);
-
-        cb(null, uniqueName);
-
-    }
-
-});
-
-
+// Store image temporarily in memory
 const upload = multer({
-    storage: storage
+    storage: multer.memoryStorage()
 });
 
 
 // Upload image
-router.post("/", upload.single("image"), (req, res) => {
+router.post("/", upload.single("image"), async (req, res) => {
 
     console.log("🔥 UPLOAD ROUTE HIT");
 
@@ -59,21 +27,59 @@ router.post("/", upload.single("image"), (req, res) => {
 
         }
 
-        const imageUrl =
-    `https://${req.get("host")}/uploads/${req.file.filename}`;
+
+        // Upload image to Cloudinary
+        const result =
+            await new Promise((resolve, reject) => {
+
+                const stream =
+                    cloudinary.uploader.upload_stream(
+                        {
+                            folder: "recipe-finder/profiles"
+                        },
+
+                        (error, result) => {
+
+                            if (error) {
+                                reject(error);
+                            }
+                            else {
+                                resolve(result);
+                            }
+
+                        }
+                    );
+
+                stream.end(req.file.buffer);
+
+            });
+
+
+        console.log(
+            "☁️ Image uploaded to Cloudinary:",
+            result.secure_url
+        );
+
 
         res.json({
-            imageUrl: imageUrl
+
+            imageUrl: result.secure_url
+
         });
 
     }
 
     catch (error) {
 
-        console.log("Upload error:", error);
+        console.log(
+            "❌ Cloudinary upload error:",
+            error
+        );
 
         res.status(500).json({
+
             error: error.message
+
         });
 
     }
