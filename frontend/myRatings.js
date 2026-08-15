@@ -134,8 +134,12 @@ catch(error){
 function viewRecipe(id){
 
     localStorage.setItem(
-        "selectedRecipe",
+        "selectedRecipeId",
         id
+    );
+
+    localStorage.removeItem(
+        "selectedRecipe"
     );
 
     window.location.href="recipe.html";

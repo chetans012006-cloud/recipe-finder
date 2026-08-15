@@ -4,9 +4,6 @@ console.log("recipe.js loaded");
 let selectedRecipeId =
     localStorage.getItem("selectedRecipeId");
 
-let selectedRecipe =
-    localStorage.getItem("selectedRecipe");
-
 
 let recipe;
 // Cooking Mode Timer Variables
@@ -185,19 +182,7 @@ async function loadRecipe() {
         // OLD NAME SYSTEM
         // =========================
 
-        else if (selectedRecipe) {
-
-            console.log(
-                "Loading recipe by name:",
-                selectedRecipe
-            );
-
-            response = await fetch(
-                "https://recipe-finder-gdak.onrender.com/api/recipes/name/" +
-                encodeURIComponent(selectedRecipe)
-            );
-
-        }
+        
 
         // =========================
         // NOTHING SELECTED

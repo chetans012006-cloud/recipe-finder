@@ -153,8 +153,12 @@ Remove ❤️
 function viewRecipe(recipeId){
 
     localStorage.setItem(
-        "selectedRecipe",
+        "selectedRecipeId",
         recipeId
+    );
+
+    localStorage.removeItem(
+        "selectedRecipe"
     );
 
     window.location.href="recipe.html";

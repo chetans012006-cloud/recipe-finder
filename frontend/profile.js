@@ -279,25 +279,23 @@ error
 
 function openRecipe(id){
 
-    console.log("OPEN RECIPE ID:", id);
+    console.log("========== OPEN RECIPE ==========");
+    console.log("ID received:", id);
 
-    if(!id){
+    localStorage.setItem("selectedRecipeId", id);
+    localStorage.removeItem("selectedRecipe");
 
-        alert("Recipe ID missing");
-
-        return;
-
-    }
-
-
-    localStorage.setItem(
-        "selectedRecipe",
-        id
+    console.log(
+        "selectedRecipeId:",
+        localStorage.getItem("selectedRecipeId")
     );
 
+    console.log(
+        "selectedRecipe:",
+        localStorage.getItem("selectedRecipe")
+    );
 
-    window.location.href="recipe.html";
-
+    window.location.href = "recipe.html";
 }
 async function loadMyRatings(){
 
